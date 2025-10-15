@@ -1,0 +1,17 @@
+
+@import "tailwindcss";
+
+body{
+  background-color: black;
+  
+}
+
+/* input{
+  border: 1px solid yellow;
+ } */
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+ 
