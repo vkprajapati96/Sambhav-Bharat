@@ -257,17 +257,17 @@ function Home() {
 
 {/* services section */}
 
-<div className="flex flex-col px-4 md:px-12">
-  <h1 className="text-white font-bold text-4xl text-center mt-24">Our Services</h1>
+<div className="flex flex-col px-4 md:px-12 pt-12 md:pt-24">
+  <h1 className="text-white font-bold text-4xl text-center">Our Services</h1>
 
-  <p className="text-white font-bold text-2xl text-center mt-6">
+  <p className="text-white font-bold text-2xl text-center mt-4">
     Tailored Solution by Expert Real
     <br />
     Estate Agents
   </p>
 
-  {/* ✅ Responsive Fix */}
-  <div className="flex flex-wrap justify-center md:justify-between gap-8 mt-12">
+  {/* Responsive Cards */}
+  <div className="flex flex-wrap justify-center md:justify-between gap-6 mt-8">
     {/* Card 1 */}
     <div className="flex flex-col items-center gap-4 text-xl font-semibold w-full sm:w-[80%] md:w-[30%]">
       <img
