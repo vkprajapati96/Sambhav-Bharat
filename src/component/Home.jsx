@@ -256,7 +256,7 @@ function Home() {
     </div>
 
 {/* services section */}
-<div className="flex flex-col px-4 md:px-12 pt-12 md:pt-16">
+<div className="flex flex-col  px-4 md:px-12 pt-12 md:pt-16">
   <h1 className="text-white font-bold text-4xl text-center">Our Services</h1>
 
   <p className="text-white font-bold text-2xl text-center mt-4">
