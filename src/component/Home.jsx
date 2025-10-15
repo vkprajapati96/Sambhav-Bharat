@@ -256,36 +256,55 @@ function Home() {
     </div>
 
 {/* services section */}
-<div className="flex flex-col ">
+
+<div className="flex flex-col px-4 md:px-12">
   <h1 className="text-white font-bold text-4xl text-center mt-24">Our Services</h1>
-  <p className="text-white font-bold text-2xl text-center mt-6">Tailored Solution by Expert Real
+
+  <p className="text-white font-bold text-2xl text-center mt-6">
+    Tailored Solution by Expert Real
     <br />
-Estate Agents
+    Estate Agents
+  </p>
 
-</p>
-  <div className="flex justify-between mt-12">
-<div className="flex flex-col items-center gap-4 text-xl font-semibold">
-
-    <img className="w-80 h-60 rounded-md" src="https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg" alt="" />
-    <p className="text-white">Buy or Sell Property</p>
-  
-  </div>
-   
-   <div className="flex flex-col items-center gap-4 text-xl font-semibold">
-
-    <img className="w-80 h-60 rounded-md"  src="https://cdn.pixabay.com/photo/2020/07/04/17/43/houses-5370403_1280.jpg" alt="" />
-    <p className="text-white">Rent or Leasy Property</p>
-  </div>
-  
-  <div className="flex flex-col items-center gap-4 text-xl font-semibold">
-    
-      <img className="w-80 h-60 rounded-md" src="https://cdn.pixabay.com/photo/2018/01/31/12/16/architecture-3121009_1280.jpg" alt="" />
-    <p className="text-white">Commercial Properties</p>
-  
-  </div>
-    
+  {/* ✅ Responsive Fix */}
+  <div className="flex flex-wrap justify-center md:justify-between gap-8 mt-12">
+    {/* Card 1 */}
+    <div className="flex flex-col items-center gap-4 text-xl font-semibold w-full sm:w-[80%] md:w-[30%]">
+      <img
+        className="w-full h-60 object-cover rounded-md"
+        src="https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg"
+        alt=""
+      />
+      <p className="text-white text-center">Buy or Sell Property</p>
     </div>
+
+    {/* Card 2 */}
+    <div className="flex flex-col items-center gap-4 text-xl font-semibold w-full sm:w-[80%] md:w-[30%]">
+      <img
+        className="w-full h-60 object-cover rounded-md"
+        src="https://cdn.pixabay.com/photo/2020/07/04/17/43/houses-5370403_1280.jpg"
+        alt=""
+      />
+      <p className="text-white text-center">Rent or Leasy Property</p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="flex flex-col items-center gap-4 text-xl font-semibold w-full sm:w-[80%] md:w-[30%]">
+      <img
+        className="w-full h-60 object-cover rounded-md"
+        src="https://cdn.pixabay.com/photo/2018/01/31/12/16/architecture-3121009_1280.jpg"
+        alt=""
+      />
+      <p className="text-white text-center">Commercial Properties</p>
+    </div>
+  </div>
 </div>
+
+
+
+
+
+
 
 
 
