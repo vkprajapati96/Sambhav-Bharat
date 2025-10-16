@@ -128,7 +128,7 @@ function Home() {
 
       {/* selcetion section */}
 
-        <div className="mt-[6rem]">
+        <div className=" mt-[6rem]">
       <div className="text-center text-4xl font-semibold text-white">
         Check Our Selection From
       </div>
@@ -252,12 +252,14 @@ function Home() {
       </div>
 
       {/* Mobile screen ke liye spacing fix */}
-      <div className="h-[50rem] md:hidden"></div>
-    </div>
+
+      <div className="h-[50rem] md:hidden"></div></div>
 
 {/* services section */}
 <div className="flex flex-col  px-4 md:px-12 pt-12 md:pt-16">
-  <h1 className="text-white font-bold text-4xl text-center">Our Services</h1>
+<h1 className="text-white font-bold text-4xl text-center mt-10 md:mt-24">
+  Our Services
+</h1>
 
   <p className="text-white font-bold text-2xl text-center mt-4">
     Tailored Solution by Expert Real
