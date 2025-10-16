@@ -2,6 +2,7 @@ import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import WhatsAppButton from "./WhatsAppButton";
 import { MdOutlineFileDownload } from "react-icons/md";
+import Form from "./Form";
 
 function Home() {
   return (
@@ -256,7 +257,7 @@ function Home() {
       <div className="h-[50rem] md:hidden"></div></div>
 
 {/* services section */}
-<div className="flex flex-col  px-4 md:px-12 pt-12 md:pt-16">
+<div className="flex flex-col px-4 md:px-12 pt-12 md:pt-16">
 <h1 className="text-white font-bold text-4xl text-center mt-10 md:mt-24">
   Our Services
 </h1>
@@ -301,11 +302,87 @@ function Home() {
   </div>
 </div>
 
+{/* property journey */}
+    <div className=" text-white flex flex-col  items-center pt-2 py-16">
+      <div className="text-center max-w-3xl">
+        <h2 className="text-white text-center text-2xl mt-12 md:text-4xl  font-semibold ">
+          Start your property journey with us
+        </h2>
+        <p className="text-white text-center mt-6 text-xl md:text-2xl">
+We are ready to support you
+<br />
+        with your property requirements.
+        </p>
+      </div>
+      <div className="mt-14 max-w-7xl">
+        <img className="w-full rounded-4xl" src="https://shambhavbharat.netlify.app/assets/Capture-CgC2ei_z.JPG" alt="" />
+      </div>   
+   </div>
 
 
 
 
+{/* testimonial section */}
+    <div className=" text-white  flex flex-col items-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+Client Testimonials
+      </h2>
 
+        {/* Testimonial */}
+      <div className="flex flex-col md:flex-row  justify-between gap-8 w-full max-w-7xl">
+        <div className="bg-[#111] px-6 pt-4 pb-8 border-r-2 border-yellow-500 rounded-xl flex-1">
+          <h3 className="text-xl font-semibold mb-3">
+Residential Property in South Delhi
+          </h3>
+          <p className="text-white font-semibold mb-4">
+            Sambhav Bharat made the entire process of finding our new home seamless. The team was extremely professional, guided us through every detail, and helped us finalize a property that perfectly suited our family’s needs. Highly recommended for anyone buying in South Delhi.
+
+
+          </p>
+          <p className="text-yellow-400 py-4 font-semibold">Rohit Mehra, New Delhi
+
+</p>
+        </div>
+
+        <div className="bg-[#111] px-6 pt-4 pb-8 border-r-2 border-yellow-500 rounded-xl flex-1">
+          <h3 className="text-xl font-semibold mb-3">
+Commercial Office in Gurgaon
+          </h3>
+          <p className="text-white font-semibold mb-4">
+We were looking for a prime office space for our growing team. Sambhav Bharat understood our requirements and quickly identified the right property. Their negotiation support and attention to detail saved us time and money. Fantastic service!
+
+
+
+          </p>
+          <p className="text-yellow-400 py-4 font-semibold">Ananya Kapoor, Entrepreneur
+
+
+
+</p>
+        </div>
+ <div className="bg-[#111] px-6 pt-4 pb-8 border-r-2 border-yellow-500 rounded-xl flex-1">
+          <h3 className="text-xl font-semibold mb-3">
+Rental Apartment in Safdarjung Enclave
+  </h3>
+          <p className="text-white font-semibold mb-4">
+As a working professional, I needed a safe and modern apartment on rent in a prime location. Sambhav Bharat provided multiple verified options and handled all paperwork smoothly. The experience was stress-free from start to finish.
+
+
+
+          </p>
+          <p className="text-yellow-400 py-4 font-semibold">Arjun Malhotra, Tenant
+
+
+
+</p>
+        </div>
+
+      
+      </div>
+    </div>
+
+{/* form */}
+<Form/>
 
 
 
