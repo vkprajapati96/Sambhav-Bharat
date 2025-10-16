@@ -7,7 +7,7 @@ function Form() {
   
   
   return (
-   <div className="mt-[8rem] flex flex-col gap-3 items-center">
+   <div className=" mt-[8rem] flex flex-col gap-3 items-center">
   <h1 className="text-white font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
     We will contact you to discuss the details
   </h1>
