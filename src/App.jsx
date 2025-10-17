@@ -3,12 +3,15 @@ import { Routes, Route } from 'react-router-dom'; // NO BrowserRouter here
 import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import Footer from './component/Footer';
+import WaterCursor from './component/Cursor';
+import CursorTrail from './component/Cursor';
 
 function App() {
   return (
     <div >
+     <CursorTrail/>
+      
       <Navbar />
-
         <Routes>
           <Route path='/' element={<Home />} />
           {/* Add more pages */}

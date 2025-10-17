@@ -1,0 +1,10 @@
+.trail-dot {
+  position: fixed;
+  width: 18px;
+  height: 18px;
+  background: linear-gradient(135deg, #00f5ff, #0077ff);
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  z-index: 9999;
+}
