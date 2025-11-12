@@ -2,13 +2,14 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
-import image1 from '../image/image1.jpeg'
-import image2 from '../image/image2.png'
-import image3 from '../image/image3.png'
-import image4 from '../image/image4.webp'
-import thevelley from '../image/thevelley.JPG'
-import newlauncimage from '../image/newlauncimage.jpeg'
-import newlauncimage1 from '../image/newlauncimage1.jpeg'
+import image1 from "../image/image1.jpeg";
+import image2 from "../image/image2.png";
+import image3 from "../image/image3.png";
+import image4 from "../image/image4.webp";
+import thevelley from "../image/thevelley.JPG";
+import newlauncimage from "../image/newlauncimage.jpeg";
+import newlauncimage1 from "../image/newlauncimage1.jpeg";
+import CommingSoon from "../image/ComingSoon.jpeg";
 
 function NewLaunchSection() {
   const scrollRef = useRef(null);
@@ -20,7 +21,6 @@ function NewLaunchSection() {
   const scrollRight = () => {
     scrollRef.current.scrollBy({ left: 400, behavior: "smooth" });
   };
-
 
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -36,27 +36,32 @@ function NewLaunchSection() {
     link.click();
   };
 
-
-   const handleDownloadthevelley = () => {
+  const handleDownloadthevelley = () => {
     const link = document.createElement("a");
     link.href = "/thevelley.pdf"; // public folder se direct access
     link.download = "thevelley.pdf"; // file ka naam jab download ho
     link.click();
-  }
+  };
 
   const handleDownloadVone = () => {
     const link = document.createElement("a");
     link.href = "/vone.pdf"; // public folder se direct access
     link.download = "vone.pdf"; // file ka naam jab download ho
     link.click();
-  }
+  };
 
   const handleDownloadSka = () => {
     const link = document.createElement("a");
     link.href = "/SKA-ARCADIA.pdf"; // public folder se direct access
     link.download = "SKA-ARCADIA.pdf"; // file ka naam jab download ho
     link.click();
-  }
+  };
+  const handleDownloadPrimeVIsta = () => {
+    const link = document.createElement("a");
+    link.href = "/prime-vista.pdf"; // public folder se direct access
+    link.download = "catalogue-prime-vista.pdf"; // file ka naam jab download ho
+    link.click();
+  };
 
   return (
     <div className="lg:mx-16 flex justify-center mt-16">
@@ -107,7 +112,8 @@ function NewLaunchSection() {
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">Location : Haridwar</p>
                 <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with us.
+                  If you want to know more about this place, please connect with
+                  us.
                 </p>
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
@@ -135,7 +141,8 @@ function NewLaunchSection() {
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">Location : Mathura</p>
                 <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with us.
+                  If you want to know more about this place, please connect with
+                  us.
                 </p>
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
@@ -165,7 +172,8 @@ function NewLaunchSection() {
                   Location : Mathura, Mall ( Near by Prem Mandir )
                 </p>
                 <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with us.
+                  If you want to know more about this place, please connect with
+                  us.
                 </p>
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
@@ -195,7 +203,8 @@ function NewLaunchSection() {
                   Location : SKA Arcadia (Mall) Sector-2, Wave City, Ghaziabad
                 </p>
                 <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with us.
+                  If you want to know more about this place, please connect with
+                  us.
                 </p>
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
@@ -211,8 +220,6 @@ function NewLaunchSection() {
                   </Link>
                 </div>
               </div>
-
-
 
               {/* Card 5 */}
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
@@ -227,7 +234,8 @@ function NewLaunchSection() {
                   Location : The Velley
                 </p>
                 <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with us.
+                  If you want to know more about this place, please connect with
+                  us.
                 </p>
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
@@ -244,7 +252,6 @@ function NewLaunchSection() {
                 </div>
               </div>
 
-
               {/* Card 6 */}
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link to="/aero/city">
@@ -258,7 +265,8 @@ function NewLaunchSection() {
                   Location : Shri Shyam Aero City, ( Near by khatu shyam )
                 </p>
                 <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with us.
+                  If you want to know more about this place, please connect with
+                  us.
                 </p>
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <Link to="/contact">
@@ -282,9 +290,46 @@ function NewLaunchSection() {
                   Location : Chandroday City, Vrindavan - Mathura
                 </p>
                 <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with us.
+                  If you want to know more about this place, please connect with
+                  us.
                 </p>
                 <div className="flex items-center gap-3 px-2 pb-3">
+                  <Link to="/contact">
+                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
+                      Contact Us
+                    </button>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Card 8 */}
+              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+                <Link to="/prime-vista">
+                  <img
+                    className="rounded-t-3xl w-full h-60 object-cover object-top"
+                    src={CommingSoon}
+                    alt=""
+                  />
+                </Link>
+                <p className="text-white mt-2 px-2 mb-3">Location : jhajhar</p>
+                <p className="text-white mt-2 mx-2">
+                  If you want to know more about this place, please connect with
+                  us.
+                </p>
+                {/* <div className="flex items-center gap-3 px-2 pb-3">
+                  <Link to="/contact">
+                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
+                      Contact Us
+                    </button>
+                  </Link>
+                </div> */}
+                <div className="flex items-center gap-3 px-2 pb-3">
+                  <button
+                    onClick={handleDownloadPrimeVIsta}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
+                  >
+                    Download PDF <MdOutlineFileDownload size={20} />
+                  </button>
                   <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us
