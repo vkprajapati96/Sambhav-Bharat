@@ -2,83 +2,59 @@ import React from "react";
 // import haridwar5 from "../image/HaridwarImage/haridwar5.jpeg";
 // import haridwar6 from "../image/HaridwarImage/haridwar6.jpeg";
 
-// import image1 from "../image/PrimeVistaImage/image1.jpeg";
+import image1 from "../image/PrimeVistaImage/image1.jpeg";
 import image2 from "../image/PrimeVistaImage/image2.jpeg";
 import image3 from "../image/PrimeVistaImage/image3.jpeg";
 import image4 from "../image/PrimeVistaImage/image4.jpeg";
 import image5 from "../image/PrimeVistaImage/image5.jpeg";
-// import image6 from "../image/PrimeVistaImage/image6.jpeg";
-// import image7 from "../image/PrimeVistaImage/image7.jpeg";
+import image6 from "../image/PrimeVistaImage/image6.jpeg";
+import image7 from "../image/PrimeVistaImage/image7.jpeg";
+import image8 from "../image/PrimeVistaImage/image8.jpeg";
+import image9 from "../image/PrimeVistaImage/image9.jpeg";
+import image10 from "../image/PrimeVistaImage/image10.jpeg";
+import image11 from "../image/PrimeVistaImage/image11.jpeg";
+import image12 from "../image/PrimeVistaImage/image12.jpeg";
+import image13 from "../image/PrimeVistaImage/image13.jpeg";
+import image14 from "../image/PrimeVistaImage/image14.jpeg";
+import detail1 from "../image/PrimeVistaImage/detail1.jpeg";
+import SImage1 from "../image/PrimeVistaImage/SImage1.jpeg";
+import SImage2 from "../image/PrimeVistaImage/SImage2.jpeg";
+import SImage3 from "../image/PrimeVistaImage/SImage3.jpeg";
+
 
 
 import location1 from "../image/PrimeVistaImage/location1.jpg";
 import location2 from "../image/PrimeVistaImage/location2.jpg";
-import location3 from "../image/PrimeVistaImage/location3.jpg";
-
+import location4 from "../image/PrimeVistaImage/location4.jpeg";
+// import location3 from "../image/PrimeVistaImage/location3.jpg";
 
 
 
 const PrimeVista = () => {
   return (
     <>
-      {/* -----------first part--------------------- */}
-      <div className="flex items-center justify-center z-10 px-6 ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-8xl mt-16">
-          {/* Card 1 */}
-          <div className="shadow-lg py-3">
-            <img
-              className="rounded-2xl w-full h-92 object-cover object-center"
-              src={image5}
-              alt=""
-            />
-          </div>
-          {/* Card 2 */}
-          <div className="shadow-lg py-3 text-white">
-            <img
-              className="rounded-2xl w-full h-92 object-cover object-center"
-              src={image2}
-              alt=""
-            />
-          </div>
-          {/* Card 3 */}
-          <div className="shadow-lg py-3 text-white">
-            <img
-              className="rounded-2xl w-full h-92 object-cover object-center"    
-              src={image3}
-              alt=""
-            />
-          </div>
-          {/* Card 4 */}
-          <div className="shadow-lg py-3 text-white">
-            <img
-              className="rounded-2xl w-full h-92 object-cover object-center"
-              src={image4}
-              alt=""
-            />
-          </div>
-
-          {/* card 5 */}
-
-          {/* <div className="shadow-lg py-3 text-white">
-            <img
-              className="rounded-2xl w-full h-92 object-cover object-center"
-              src={image1}
-              alt=""
-            />
-          </div> */}
-
-{/* card 6 */}
-          {/* <div className="shadow-lg py-3 text-white">
-            <img
-              className="rounded-2xl w-full h-92 object-cover object-center"
-              src={image7}
-              alt=""
-            />
-          </div> */}
-
-
-        </div>
+      {/* -----------first part vertical img--------------------- */}
+<div className="flex items-center justify-center z-10 px-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-8xl mt-16">
+    
+    {/* Repeat this block for all 14 images */}
+    {[image2, image10,  image4, image5, image6, image7 ].map((img, index) => (
+      <div
+        key={index}
+        className="shadow-lg bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden w-full h-96"
+      >
+        <img
+          className="w-full h-full object-cover rounded-2xl transition-transform duration-300 hover:scale-105"
+          src={img}
+          alt={`Image ${index + 1}`}
+        />
       </div>
+    ))}
+
+  </div>
+</div>
+
+{/* ------------ 2nd part horizontal img */}
 
       {/* ----------------second part--------------------- */}
     <div className="flex items-center justify-center z-10 px-6">
@@ -256,20 +232,40 @@ const PrimeVista = () => {
 </div>
 
 
+{/*  thiird part  */}
+<div className="flex flex-col lg:flex-row items-stretch justify-center z-10 px-6 w-full max-w-8xl mt-16 gap-6">
+  {/* Left side - one big image */}
+  <div className="flex-1 shadow-lg bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden w-full h-[400px] lg:h-[940px]">
+    <img
+      className="w-full h-full object-cover rounded-2xl"
+      src={location1}
+      alt="Location 1"
+    />
+  </div>
 
-      <div className="flex items-center justify-center z-10 px-6 ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-8xl mt-16">
+  {/* Right side - two equal halves (both images) */}
+  <div className="flex-1 flex flex-col gap-6 w-full">
 
-          <div className="shadow-lg py-3">
-            <img className="rounded-2xl" src={location1} alt="" />
-          </div>
+    {/* Top half - show top part of image */}
+    <div className="shadow-lg bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden h-[500px] lg:h-[457px]">
+      <img
+        className="w-full h-full object-cover object-top rounded-2xl"
+        src={location2}
+        alt="Location 2"
+      />
+    </div>
 
-          <div className=" shadow-lg py-3 text-white">
-            <img className="rounded-2xl" src={location2} alt="" />
-          </div>
-        </div>
-     
-      </div>
+    {/* Bottom half - second image */}
+    <div className="shadow-lg bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden h-[500px] lg:h-[457px]">
+      <img
+        className="w-full h-full object-cover rounded-2xl"
+        src={location4}
+        alt="Location 4"
+      />
+    </div>
+
+  </div>
+</div>
 
 
     </>
