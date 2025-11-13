@@ -4,8 +4,8 @@ import ska2 from '../image/Skaimage/ska2.webp'
 import ska3 from '../image/Skaimage/ska3.webp'
 import ska4 from '../image/Skaimage/ska4.webp'
 import location from '../image/Skaimage/location.webp'
-import design1 from '../image/Skaimage/design1.jpeg'
-import design2 from '../image/Skaimage/design2.jpeg'
+// import design1 from '../image/Skaimage/design1.jpeg'
+// import design2 from '../image/Skaimage/design2.jpeg'
 
 const Ska = () => {
     return (

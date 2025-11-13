@@ -4,13 +4,13 @@ import capture from '../image/Capture.JPG'
 import Contact from "./Contact";
 import { Link } from 'react-router-dom'
 import mainImage from '../image/mainimage.png'
-import image1 from '../image/image1.jpeg'
-import image2 from '../image/image2.png'
+// import image1 from '../image/image1.jpeg'
+// import image2 from '../image/image2.png'
 import image3 from '../image/image3.png'
-import image4 from '../image/image4.webp'
+// import image4 from '../image/image4.webp'
 import { MdOutlineFileDownload } from "react-icons/md";
-import newlauncimage from '../image/newlauncimage.jpeg'
-import newlauncimage1 from '../image/newlauncimage1.jpeg'
+// import newlauncimage from '../image/newlauncimage.jpeg'
+// import newlauncimage1 from '../image/newlauncimage1.jpeg'
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import NewLaunchSection from "./NewLaunchSection";
 
