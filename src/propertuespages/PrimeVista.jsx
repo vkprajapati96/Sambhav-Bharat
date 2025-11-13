@@ -1,6 +1,4 @@
 import React from "react";
-// import haridwar5 from "../image/HaridwarImage/haridwar5.jpeg";
-// import haridwar6 from "../image/HaridwarImage/haridwar6.jpeg";
 
 import image1 from "../image/PrimeVistaImage/image1.jpeg";
 import image2 from "../image/PrimeVistaImage/image2.jpeg";
@@ -17,16 +15,12 @@ import image12 from "../image/PrimeVistaImage/image12.jpeg";
 import image13 from "../image/PrimeVistaImage/image13.jpeg";
 import image14 from "../image/PrimeVistaImage/image14.jpeg";
 import detail1 from "../image/PrimeVistaImage/detail1.jpeg";
-import SImage1 from "../image/PrimeVistaImage/SImage1.jpeg";
-import SImage2 from "../image/PrimeVistaImage/SImage2.jpeg";
-import SImage3 from "../image/PrimeVistaImage/SImage3.jpeg";
 
 
 
 import location1 from "../image/PrimeVistaImage/location1.jpg";
 import location2 from "../image/PrimeVistaImage/location2.jpg";
 import location4 from "../image/PrimeVistaImage/location4.jpeg";
-// import location3 from "../image/PrimeVistaImage/location3.jpg";
 
 
 
