@@ -10,7 +10,7 @@ import image3 from '../image/image3.png'
 // import image4 from '../image/image4.webp'
 import { MdOutlineFileDownload } from "react-icons/md";
 // import newlauncimage from '../image/newlauncimage.jpeg'
-// import newlauncimage1 from '../image/newlauncimage1.jpeg'
+// import newlauncimage1 from '../image/newlauncimage1.jpeg;'
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import NewLaunchSection from "./NewLaunchSection";
 
