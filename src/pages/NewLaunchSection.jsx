@@ -103,11 +103,9 @@ function NewLaunchSection() {
               {/* Card 1 */}
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <span className="absolute top-2 left-2 bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
-                  HRD APPROVED
+                   Rera Received
                 </span>
-                <span className="absolute top-[205px] left-[90px] bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
-                  Rera Coming Soon
-                </span>
+                
                 {/* View Eye Button - Top Right */}
                 <Link
                   to="/haridwar"
