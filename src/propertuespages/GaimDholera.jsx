@@ -4,6 +4,8 @@ import dholera2 from "../image/GaimDholera/dholera2.jpeg";
 import dholera3 from "../image/GaimDholera/dholera3.jpeg";
 import dholera4 from "../image/GaimDholera/dholera4.jpeg";
 import statue  from "../image/GaimDholera/statue.jpeg";
+import dholera5 from "../image/GaimDholera/dholera5.jpeg";
+import dholera6 from "../image/GaimDholera/dholera6.jpeg";
 
 const GaimDholera = () => {
   return (
@@ -124,6 +126,39 @@ const GaimDholera = () => {
       </p>
     </div>
 
+  </div>
+</div>
+
+<div className="w-full py-12 px-6 flex justify-center">
+  <div className="max-w-7xl w-full bg-white/10 border border-white/20 backdrop-blur-xl rounded-3xl shadow-2xl p-6">
+
+    <div className="flex flex-col lg:flex-row items-center gap-8">
+
+      {/* LEFT IMAGE WITH OUTSIDE TITLE */}
+      <div className="w-full lg:w-1/2 border border-gray-300 rounded-xl overflow-hidden shadow-lg bg-white">
+        
+        {/* White Title Bar */}
+        <div className="w-full bg-white text-black font-bold text-xl md:text-[50px] px-4 py-3 border-b border-gray-300">
+          Canada to invest ₹6k cr in Dholera SIR
+        </div>
+
+        <img
+          src={dholera5}
+          alt="News Image 1"
+          className="w-full h-auto object-contain"
+        />
+      </div>
+
+      {/* RIGHT IMAGE FRAME */}
+      <div className="w-full lg:w-1/2 border border-gray-300 rounded-xl overflow-hidden shadow-lg bg-white p-2">
+        <img
+          src={dholera6}
+          alt="News Image 2"
+          className="w-full h-auto object-contain"
+        />
+      </div>
+
+    </div>
   </div>
 </div>
 
