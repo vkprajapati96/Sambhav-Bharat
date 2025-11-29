@@ -16,6 +16,7 @@ import Chandroday from './propertuespages/Chandroday'
 import Ska from './propertuespages/Ska'
 import TheVelley from './propertuespages/TheVelley'
 import PrimeVista from './propertuespages/PrimeVista'
+import GaimDholera from './propertuespages/GaimDholera'
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
       <Route path="/ska" element={<Ska/>}/>
       <Route path="/the-velley" element={<TheVelley/>}/>
       <Route path="/prime-vista" element={<PrimeVista/>}/>
+      <Route path="/gaim-dholera" element={<GaimDholera/>}/>
      </Routes>
      <Footer/>
     </BrowserRouter>

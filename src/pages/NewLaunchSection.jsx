@@ -10,7 +10,7 @@ import image4 from "../image/image4.webp";
 import thevelley from "../image/thevelley.JPG";
 import newlauncimage from "../image/newlauncimage.jpeg";
 import newlauncimage1 from "../image/newlauncimage1.jpeg";
-// import finally-Arrived from "../image/finally-Arrived.jpeg";
+import dholera from "../image/dholera.jpeg";
 import finallyArrived from "../image/finally-Arrived.jpeg";
 
 function NewLaunchSection() {
@@ -278,7 +278,7 @@ function NewLaunchSection() {
                 </p>
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
-                    onClick={handleDownloadSka}
+                    onClick={handleDownloadthevelley}
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
                   >
                     Download PDF <MdOutlineFileDownload size={20} />
@@ -376,13 +376,7 @@ function NewLaunchSection() {
                   If you want to know more about this place, please connect with
                   us.
                 </p>
-                {/* <div className="flex items-center gap-3 px-2 pb-3">
-                  <Link to="/contact">
-                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
-                      Contact Us
-                    </button>
-                  </Link>
-                </div> */}
+                
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
                     onClick={handleDownloadPrimeVIsta}
@@ -397,6 +391,47 @@ function NewLaunchSection() {
                   </Link>
                 </div>
               </div>
+              
+              {/* card 9 */}
+
+               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+                <Link
+                  to="/gaim-dholera"
+                  className="absolute top-2 left-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
+                >
+                  <AiOutlineEye className="font-bold" size={18} /> View
+                </Link>
+
+                <Link to="/gaim-dholera">
+                  <img
+                    className="rounded-t-3xl w-full h-60 object-cover object-top"
+                    src={dholera}
+                    alt=""
+                  />
+                </Link>
+                <p className="text-white mt-2 px-2 mb-3">Location :Gaim Dholera (Gujarat) </p>
+                <p className="text-white mt-2 mx-2">
+                  If you want to know more about this place, please connect with
+                  us.
+                </p>
+                
+                <div className="flex items-center gap-3 px-2 pb-3">
+                  <button
+                    onClick=""
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
+                  >
+                    Download PDF <MdOutlineFileDownload size={20} />
+                  </button>
+                  <Link to="/contact">
+                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
+                      Contact Us
+                    </button>
+                  </Link>
+                </div>
+              </div>
+
+
+
             </div>
 
             {/* 👉 Right Scroll Button */}
