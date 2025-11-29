@@ -3,6 +3,7 @@ import dholera1 from "../image/GaimDholera/dholera1.jpeg";
 import dholera2 from "../image/GaimDholera/dholera2.jpeg";
 import dholera3 from "../image/GaimDholera/dholera3.jpeg";
 import dholera4 from "../image/GaimDholera/dholera4.jpeg";
+import statue  from "../image/GaimDholera/statue.jpeg";
 
 const GaimDholera = () => {
   return (
@@ -96,6 +97,36 @@ const GaimDholera = () => {
 
   </div>
 </div>
+{/* section 3 */}
+<div className="w-full  text-white py-16 px-6 flex justify-center">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-8xl items-center">
+
+    {/* LEFT — IMAGE */}
+    <div>
+      <img
+        src={statue}
+        alt="Gujarat Mega Projects"
+        className="w-full h-[380px] object-cover rounded-2xl shadow-lg"
+      />
+    </div>
+
+    {/* RIGHT — HEADING + CONTENT */}
+    <div>
+      <h2 className="text-3xl lg:text-4xl font-bold leading-tight">
+        From Dholera to GIFT City: Top 8 Mega Projects Transforming Gujarat in 2025
+      </h2>
+
+      <p className="text-lg lg:text-xl mt-4 leading-relaxed">
+        Gujarat is witnessing rapid infrastructure growth through numerous mega 
+        projects that will strengthen the state in the coming years. As India’s 
+        industrial backbone, it is developing sustainable, world-class urban models 
+        that exemplify progress and globalization.
+      </p>
+    </div>
+
+  </div>
+</div>
+
 
     </>
   );
