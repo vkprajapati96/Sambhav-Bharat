@@ -11,26 +11,26 @@ const GaimDholera = () => {
   return (
     <>
       {/* section 1 */}
-      <div className="flex items-center justify-center z-10 px-6 ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-8xl mt-16">
-          <div className="shadow-lg py-3">
-            <img className="rounded-2xl" src={dholera1} alt="" />
+      <div className="flex items-center justify-center  z-10 px-6 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-8xl mt-12 mb-8">
+          <div className=" py-3">
+            <img className="rounded-2xl h-full w-full " src={dholera1} alt="" />
           </div>
 
-          <div className=" shadow-lg py-3 text-white">
-            <img className="rounded-2xl" src={dholera2} alt="" />
+          <div className=" py-3 text-white">
+            <img className="rounded-2xl h-full w-full" src={dholera2} alt="" />
           </div>
-          <div className=" shadow-lg py-3 text-white">
-            <img className="rounded-2xl" src={dholera3} alt="" />
+          <div className="  py-3 text-white">
+            <img className="rounded-2xl h-full w-full" src={dholera3} alt="" />
           </div>
-          <div className=" shadow-lg py-3 text-white">
-            <img className="rounded-2xl" src={dholera4} alt="" />
+          <div className=" py-3 text-white">
+            <img className="rounded-2xl h-full w-full" src={dholera4} alt="" />
           </div>
         </div>
       </div>
 
-<div className="flex items-center justify-center z-10 px-6">
-  <div className="grid grid-cols-1 gap-6 w-full max-w-8xl mt-16 text-white">
+<div className="flex items-center justify-center  z-10 px-6">
+  <div className="grid grid-cols-1 gap-6 w-full max-w-8xl mt-12 mb-8 text-white">
 
     {/* Heading */}
     <div>
@@ -100,7 +100,7 @@ const GaimDholera = () => {
   </div>
 </div>
 {/* section 3 */}
-<div className="w-full  text-white py-16 px-6 flex justify-center">
+<div className="w-full  text-white py-14 px-6 flex justify-center">
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-8xl items-center">
 
     {/* LEFT — IMAGE */}
@@ -129,8 +129,9 @@ const GaimDholera = () => {
   </div>
 </div>
 
-<div className="w-full py-12 px-6 flex justify-center">
-  <div className="max-w-7xl w-full bg-white/10 border border-white/20 backdrop-blur-xl rounded-3xl shadow-2xl p-6">
+
+<div className="w-full py-8  px-6 flex justify-center">
+  <div className="max-w-8xl w-full bg-white/10 border border-white/20 backdrop-blur-xl rounded-3xl shadow-2xl p-6">
 
     <div className="flex flex-col lg:flex-row items-center gap-8">
 
