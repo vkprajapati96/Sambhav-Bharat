@@ -409,19 +409,19 @@ function NewLaunchSection() {
                     alt=""
                   />
                 </Link>
-                <p className="text-white mt-2 px-2 mb-3">Location :Gaim Dholera (Gujarat) </p>
+                <p className="text-white mt-2 px-2 mb-3">Location : Gaim Dholera (Gujarat) </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
                   us.
                 </p>
                 
                 <div className="flex items-center gap-3 px-2 pb-3">
-                  <button
+                  {/* <button
                     onClick=""
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
                   >
                     Download PDF <MdOutlineFileDownload size={20} />
-                  </button>
+                  </button> */}
                   <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us
