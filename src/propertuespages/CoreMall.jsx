@@ -13,13 +13,11 @@ const CoreMall = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-blue-900/20 blur-[100px] -z-10 rounded-full"></div>
 
         <h1 className="text-2xl md:py-3  md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-200 to-neutral-500 tracking-tight  pt-3">
-          Luxury Meets Location
+THE CORE MALL
         </h1>
         <p className="text-lg md:text-2xl text-neutral-400 leading-relaxed font-light">
-          The best locations are where people are today—not where they might
-          come tomorrow.{" "}
-          <span className="text-white font-normal">The Core</span> stands as a
-          defining landmark in Ghaziabad’s evolving skyline.
+Discover premium retail spaces & modern studio apartments at The Core Mall, Ghaziabad-where luxury meets a prime location, 
+         offering world-class amenities for smart investments and thriving businesses. come tomorrow.{" "}
         </p>
       </section>
       {/* Hero Section - 4 Images Grid */}
