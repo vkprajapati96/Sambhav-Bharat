@@ -6,32 +6,22 @@ import dholera3 from "../image/GaimDholera/dholera3.jpeg";
 import dholera4 from "../image/GaimDholera/dholera4.jpeg";
 
 const CoreMall = () => {
-
   return (
     <div className="font-sans text-neutral-200 bg-black  selection:bg-amber-500/30 overflow-x-hidden">
-    
       {/* Intro Section - Moved to Top */}
       <section className="text-center max-w-4xl mx-auto space-y-8 relative  pb-12 px-4">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-blue-900/20 blur-[100px] -z-10 rounded-full"></div>
-          
-          <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-200 to-neutral-500 tracking-tight pb-2">
-            Luxury Meets Location
-          </h1>
-          <p className="text-xl md:text-2xl text-neutral-400 leading-relaxed font-light">
-            The best locations are where people are today—not where they might
-            come tomorrow. <span className="text-white font-normal">The Core</span> stands as a defining landmark in Ghaziabad’s
-            evolving skyline.
-          </p>
-           <div className="flex flex-col sm:flex-row justify-center gap-6 pt-8">
-            <button className="group relative px-8 py-4 bg-white text-black rounded-full font-medium overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]">
-                <span className="relative z-10">Download Brochure</span>
-                <div className="absolute inset-0 bg-neutral-200 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
-            </button>
-            <button className="group px-8 py-4 border border-neutral-700 text-neutral-300 rounded-full font-medium hover:border-white hover:text-white transition-all hover:bg-white/5">
-                View Gallery
-            </button>
-          </div>
-        </section>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-blue-900/20 blur-[100px] -z-10 rounded-full"></div>
+
+        <h1 className="text-2xl md:py-3  md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-200 to-neutral-500 tracking-tight  pt-3">
+          Luxury Meets Location
+        </h1>
+        <p className="text-lg md:text-2xl text-neutral-400 leading-relaxed font-light">
+          The best locations are where people are today—not where they might
+          come tomorrow.{" "}
+          <span className="text-white font-normal">The Core</span> stands as a
+          defining landmark in Ghaziabad’s evolving skyline.
+        </p>
+      </section>
       {/* Hero Section - 4 Images Grid */}
       <section className="w-full  max-w-8xl mx-auto md:pb-40 p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:h-[85vh] h-auto">
@@ -45,12 +35,12 @@ const CoreMall = () => {
             {/* Overlay Text on Image */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex items-end p-8 md:p-12">
               <div className="transform transition-transform duration-500 group-hover:-translate-y-2">
-                  <h2 className="text-white text-3xl md:text-4xl font-bold tracking-tight shadow-black drop-shadow-lg mb-2">
-                    The Core Mall
-                  </h2>
-                  <p className="text-lg md:text-xl font-light text-neutral-300">
-                    Ghaziabad's New Landmark
-                  </p>
+                <h2 className="text-white text-3xl md:text-4xl font-bold tracking-tight shadow-black drop-shadow-lg mb-2">
+                  The Core Mall
+                </h2>
+                <p className="text-lg md:text-xl font-light text-neutral-300">
+                  Ghaziabad's New Landmark
+                </p>
               </div>
             </div>
           </div>
@@ -75,7 +65,7 @@ const CoreMall = () => {
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                    <span className="text-white font-semibold">Retail</span>
+                  <span className="text-white font-semibold">Retail</span>
                 </div>
               </div>
               <div className="relative overflow-hidden rounded-3xl group h-[200px] md:h-full cursor-pointer">
@@ -84,8 +74,8 @@ const CoreMall = () => {
                   alt="Food Court"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                    <span className="text-white font-semibold">Dining</span>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                  <span className="text-white font-semibold">Dining</span>
                 </div>
               </div>
             </div>
@@ -94,8 +84,6 @@ const CoreMall = () => {
       </section>
       {/* Main Content Container */}
       <main className="max-w-7xl mx-auto px-6 py-16 space-y-32">
-        
-        {/* Intro Section Removed from here and placed at top */}
         {/* Studio Apartments */}
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-10 order-2 lg:order-1">
@@ -130,13 +118,77 @@ const CoreMall = () => {
               ].map((item, i) => (
                 <li key={i} className="flex gap-5 items-start">
                   <div className="w-12 h-12 rounded-2xl bg-neutral-900 flex items-center justify-center flex-shrink-0 text-blue-400 border border-neutral-800 shadow-lg group-hover:border-blue-500/50 transition-colors">
-                     {i === 0 && <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>}
-                     {i === 1 && <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>}
-                     {i === 2 && <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>}
-                     {i === 3 && <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>}
+                    {i === 0 && (
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                        ></path>
+                      </svg>
+                    )}
+                    {i === 1 && (
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                        ></path>
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                        ></path>
+                      </svg>
+                    )}
+                    {i === 2 && (
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                        ></path>
+                      </svg>
+                    )}
+                    {i === 3 && (
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        ></path>
+                      </svg>
+                    )}
                   </div>
                   <div>
-                    <h4 className="font-bold text-white text-lg">{item.title}</h4>
+                    <h4 className="font-bold text-white text-lg">
+                      {item.title}
+                    </h4>
                     <p className="text-neutral-500 text-sm mt-1">{item.desc}</p>
                   </div>
                 </li>
@@ -153,15 +205,17 @@ const CoreMall = () => {
           </div>
         </section>
         {/* Retail & Food Court */}
-        <section className="bg-gradient-to-br from-neutral-900 to-black text-white rounded-[3rem] p-8 lg:p-20 overflow-hidden relative border border-neutral-800 shadow-2xl">
+         <section className="bg-gradient-to-br from-neutral-900 to-black text-white rounded-[3rem] p-8 lg:p-20 overflow-hidden relative  shadow-2xl">
           <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-amber-500/10 via-transparent to-transparent opacity-60"></div>
-          
+
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div className="space-y-10">
               <span className="inline-block py-1 px-3 rounded-full bg-amber-900/30 text-amber-500 font-semibold tracking-wider uppercase text-xs border border-amber-500/20">
                 Commercial Heart
               </span>
-              <h2 className="text-4xl md:text-5xl font-bold">Retail & Food Court</h2>
+              <h2 className="text-4xl md:text-5xl font-bold">
+                Retail & Food Court
+              </h2>
               <p className="text-neutral-300 text-lg leading-relaxed">
                 Designed for high footfall and brand visibility, featuring a
                 unique glass dome and 'see-through' design. Anchored by Miraj
@@ -187,15 +241,17 @@ const CoreMall = () => {
             </div>
             <div className="grid gap-6">
               <div className="h-64 bg-neutral-800 rounded-3xl overflow-hidden border border-neutral-700/50 group relative">
-                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
                 <img
                   src={dholera1}
                   alt="Retail"
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
                 />
-                 <div className="absolute bottom-4 left-4 z-20">
-                     <span className="bg-black/50 backdrop-blur-md text-white text-sm px-3 py-1 rounded-full border border-white/10">Shopping</span>
-                 </div>
+                <div className="absolute bottom-4 left-4 z-20">
+                  <span className="bg-black/50 backdrop-blur-md text-white text-sm px-3 py-1 rounded-full border border-white/10">
+                    Shopping
+                  </span>
+                </div>
               </div>
               <div className="h-64 bg-neutral-800 rounded-3xl overflow-hidden border border-neutral-700/50 group relative">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
@@ -205,8 +261,10 @@ const CoreMall = () => {
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
                 />
                 <div className="absolute bottom-4 left-4 z-20">
-                     <span className="bg-black/50 backdrop-blur-md text-white text-sm px-3 py-1 rounded-full border border-white/10">Dining</span>
-                 </div>
+                  <span className="bg-black/50 backdrop-blur-md text-white text-sm px-3 py-1 rounded-full border border-white/10">
+                    Dining
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -252,29 +310,34 @@ const CoreMall = () => {
                 "Walking distance to ABES Engineering College",
                 "15 mins to nearest Metro & Delhi",
               ].map((loc, i) => (
-                <li key={i} className="flex items-start gap-4 p-2 rounded-xl hover:bg-white/5 transition-colors">
+                <li
+                  key={i}
+                  className="flex items-start gap-4 p-2 rounded-xl hover:bg-white/5 transition-colors"
+                >
                   <div className="bg-amber-900/20 p-2 rounded-lg text-amber-500">
-                      <svg
-                        className="w-5 h-5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                        ></path>
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                        ></path>
-                      </svg>
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      ></path>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      ></path>
+                    </svg>
                   </div>
-                  <span className="text-neutral-400 text-sm md:text-base leading-relaxed">{loc}</span>
+                  <span className="text-neutral-400 text-sm md:text-base leading-relaxed">
+                    {loc}
+                  </span>
                 </li>
               ))}
             </ul>
@@ -282,9 +345,9 @@ const CoreMall = () => {
         </section>
       </main>
       {/* Footer */}
-   
     </div>
   );
-};
-export default CoreMall
 
+};
+
+export default CoreMall;
