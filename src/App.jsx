@@ -17,6 +17,7 @@ import Ska from './propertuespages/Ska'
 import TheVelley from './propertuespages/TheVelley'
 import PrimeVista from './propertuespages/PrimeVista'
 import GaimDholera from './propertuespages/GaimDholera'
+import CoreMall from './propertuespages/CoreMall'
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
       <Route path="/the-velley" element={<TheVelley/>}/>
       <Route path="/prime-vista" element={<PrimeVista/>}/>
       <Route path="/gaim-dholera" element={<GaimDholera/>}/>
+      <Route path="/core-mall" element={<CoreMall/>}/>
      </Routes>
      <Footer/>
     </BrowserRouter>

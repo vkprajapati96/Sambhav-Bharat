@@ -19,53 +19,45 @@ import location2 from "../image/PrimeVistaImage/location2.jpg";
 import location4 from "../image/PrimeVistaImage/location4.jpeg";
 
 // BOTTOM IMG
-import img1 from "../image/PrimeVistaImage/img1.png"
-import img2 from "../image/PrimeVistaImage/img2.png"
-import img3 from "../image/PrimeVistaImage/img3.png"
-import img4 from "../image/PrimeVistaImage/img4.png"
-import img5 from "../image/PrimeVistaImage/img5.png"
-import img6 from "../image/PrimeVistaImage/img6.png"
-import img7 from "../image/PrimeVistaImage/img7.png"
-import img8 from "../image/PrimeVistaImage/img8.png"
-import img9 from "../image/PrimeVistaImage/img9.png"
-import img10 from "../image/PrimeVistaImage/img10.png"
-import img11 from "../image/PrimeVistaImage/img11.png"
-import img12 from "../image/PrimeVistaImage/img12.png"
-import img13 from "../image/PrimeVistaImage/img13.png"
-import img14 from "../image/PrimeVistaImage/img14.png"
-import img15 from "../image/PrimeVistaImage/img15.png"
-import img16 from "../image/PrimeVistaImage/img16.png"
-import img17 from "../image/PrimeVistaImage/img17.png"
-import img18 from "../image/PrimeVistaImage/img18.png"
-import img19 from "../image/PrimeVistaImage/img19.png"
-import img20 from "../image/PrimeVistaImage/img20.png"
-
+import img1 from "../image/PrimeVistaImage/img1.png";
+import img2 from "../image/PrimeVistaImage/img2.png";
+import img3 from "../image/PrimeVistaImage/img3.png";
+import img4 from "../image/PrimeVistaImage/img4.png";
+import img5 from "../image/PrimeVistaImage/img5.png";
+import img6 from "../image/PrimeVistaImage/img6.png";
+import img7 from "../image/PrimeVistaImage/img7.png";
+import img8 from "../image/PrimeVistaImage/img8.png";
+import img9 from "../image/PrimeVistaImage/img9.png";
+import img10 from "../image/PrimeVistaImage/img10.png";
+import img11 from "../image/PrimeVistaImage/img11.png";
+import img12 from "../image/PrimeVistaImage/img12.png";
+import img13 from "../image/PrimeVistaImage/img13.png";
+import img14 from "../image/PrimeVistaImage/img14.png";
+import img15 from "../image/PrimeVistaImage/img15.png";
+import img16 from "../image/PrimeVistaImage/img16.png";
+import img17 from "../image/PrimeVistaImage/img17.png";
+import img18 from "../image/PrimeVistaImage/img18.png";
+import img19 from "../image/PrimeVistaImage/img19.png";
+import img20 from "../image/PrimeVistaImage/img20.png";
 
 const PrimeVista = () => {
   const scrollRef2 = useRef(null);
   const scrollRef = useRef(null);
 
+  const scrollLeft2 = () => {
+    scrollRef2.current.scrollBy({ left: -300, behavior: "smooth" });
+  };
 
-const scrollLeft2 = () => {
-  scrollRef2.current.scrollBy({ left: -300, behavior: "smooth" });
-
-};
-
-const scrollRight2 = () => {
-  scrollRef2.current.scrollBy({ left: 300, behavior: "smooth" });
-
-
-};
-
+  const scrollRight2 = () => {
+    scrollRef2.current.scrollBy({ left: 300, behavior: "smooth" });
+  };
 
   const scrollLeft = () => {
     scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
-
   };
 
   const scrollRight = () => {
     scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
-
   };
 
   return (
@@ -95,7 +87,6 @@ const scrollRight2 = () => {
           )}
         </div>
       </div>
-
 
       {/* ----------------second part--------------------- */}
       <div className="flex items-center justify-center z-10 px-6">
@@ -133,161 +124,56 @@ const scrollRight2 = () => {
           {/* Points */}
           <div>
             <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">1. IT – SEZ — </span> Proposed IT
-              Special Economic Zone to attract global tech giants. High job
-              creation = demand for housing & commercial spaces.
+              <span className="font-bold">● IT–SEZ & Industrial Zones:</span>{" "}
+              Proposed IT SEZ and large industrial clusters driving jobs and
+              long-term demand.
             </p>
           </div>
 
           <div>
             <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">2. Gautam Buddha University — </span>
-              Large, world-class university with thousands of students. Drives
-              rental income and adds value to surrounding properties.
+              <span className="font-bold">● Top Universities: </span>
+              Gautam Buddha University, Galgotias University, JBM University,
+              Noida International University & G.L. Bajaj Medical College ensure
+              strong rental demand
             </p>
           </div>
 
           <div>
             <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">
-                3. Noida International University —{" "}
-              </span>
-              Emerging multidisciplinary institution near Jewar Airport.
-              Continuous student & faculty housing demand.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">
-                4. Eastern Peripheral Expressway —{" "}
-              </span>
-              High-speed orbital expressway around Delhi. Connects Yamuna
-              Expressway to Delhi, Haryana & UP = strong connectivity.
+              <span className="font-bold">● World-Class Connectivity</span>
+              Eastern Peripheral Expressway, DMIC, proposed Metro, and Chola
+              Railway Station offer seamless road, rail & metro access.
             </p>
           </div>
 
           <div>
             <p className="text-xl 2xl:text-2xl">
               <span className="font-bold">
-                5. Delhi–Mumbai Industrial Corridor (DMIC) —{" "}
+                ● Noida International Airport (Jewar)
               </span>
-              Mega corridor with freight & industrial hubs. Yamuna Expressway
-              lies on the growth spine = high ROI.
+              India’s largest upcoming airport set to boost land values and
+              commercial growth.
             </p>
           </div>
 
           <div>
             <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">6. Film City — </span>
-              Proposed India’s biggest Film City near Jewar Airport. Generates
-              jobs, tourism, and boosts property appreciation.
+              <span className="font-bold">● Tourism & Lifestyle Hubs:</span>
+              Film City, Night Safari, F1 Buddh International Circuit, ICC
+              Cricket Stadium & Olympic Village enhance lifestyle appeal{" "}
             </p>
           </div>
 
           <div>
             <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">7. Industry — </span>
-              YEIDA developing industrial & warehousing clusters. Creates
-              employment + long-term investment value.
+              <span className="font-bold">● Logistics & Warehousing:</span>
+              India’s largest integrated logistics hub planned, making it a
+              major commercial hotspot.{" "}
             </p>
           </div>
 
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">
-                8. F1 Track – Buddh International Circuit —{" "}
-              </span>
-              India’s only Formula 1 racing track. Boosts tourism, hospitality,
-              and premium living demand.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">
-                9. ICC Approved Cricket Stadium —{" "}
-              </span>
-              International cricket venue under development. Attracts sports,
-              events & real estate growth.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">10. Galgotias University — </span>
-              Highly reputed NCR university. Ensures steady rental & housing
-              demand.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">11. JBM University — </span>
-              Growing educational hub. Adds to student housing & nearby real
-              estate value.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">
-                12. G.L. Bajaj Medical College —{" "}
-              </span>
-              Medical institution with hospital & research. Strong driver for
-              healthcare + residential demand.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">
-                13. Noida International Airport —{" "}
-              </span>
-              India’s largest airport under construction. Passenger + cargo hub
-              = skyrocketing land values.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">14. Night Safari — </span>
-              India’s first Night Safari planned near Jewar. Boosts tourism,
-              hospitality, and lifestyle investments.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">15. Logistic Hub — </span>
-              India’s largest integrated logistics hub planned. Seamless air,
-              rail, and road cargo movement = commercial hotspot.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">16. Olympic Village — </span>
-              Proposed world-class Olympic sports village. Increases
-              international recognition & real estate appreciation.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">17. Chola Railway Station — </span>
-              Nearest railway hub being developed for cargo & connectivity.
-              Links Yamuna Expressway with Eastern & Western Corridors.
-            </p>
-          </div>
-
-          <div>
-            <p className="text-xl 2xl:text-2xl">
-              <span className="font-bold">18. Metro Connectivity — </span>
-              Proposed metro extension from Greater Noida to Jewar Airport.
-              Ensures smooth transit for residents, workers & students.
-            </p>
-          </div>
+        
 
           {/* Summary */}
           <div>
@@ -295,13 +181,13 @@ const scrollRight2 = () => {
               In Summary
             </h3>
             <p className="text-xl 2xl:text-2xl mt-2">
-              Yamuna Expressway is India’s fastest-growing investment corridor,
-              combining IT, education, industries, tourism, sports, logistics,
-              and the airport into one growth powerhouse.
+              Yamuna Expressway is NCR’s fastest-growing corridor-powered by
+              infrastructure, education, industry, tourism, and the airport
+              ecosystem, making it ideal for high ROI investments and
+              future-ready living.
             </p>
             <p className="text-xl 2xl:text-2xl mt-2">
-              👉 That’s why it’s the #1 destination for both investors and home
-              buyers in NCR.
+              👉 A prime destination for investors and homebuyers in NCR.
             </p>
           </div>
         </div>
@@ -342,191 +228,180 @@ const scrollRight2 = () => {
       </div>
 
       {/* --------  4 part   -------- */}
-<div className="w-full px-6 mt-16 text-center max-w-8xl mx-auto">
-  <h2 className="text-white text-2xl md:text-3xl font-semibold mb-6">
-     Nearest Locations 
-  </h2>
+      <div className="w-full px-6 mt-16 text-center max-w-8xl mx-auto">
+        <h2 className="text-white text-2xl md:text-3xl font-semibold mb-6">
+          Nearest Locations
+        </h2>
 
-  <div className="relative w-full">
-
-    <button
-      onClick={scrollLeft}
-      className=" absolute left-2 top-1/2 -translate-y-1/2 
+        <div className="relative w-full">
+          <button
+            onClick={scrollLeft}
+            className=" absolute left-2 top-1/2 -translate-y-1/2 
                  bg-white/80 text-black p-1 rounded-full
                  hover:bg-white transition z-10 shadow-lg cursor-pointer"
-    >
-      <MdChevronLeft size={28} />
-    </button>
+          >
+            <MdChevronLeft size={28} />
+          </button>
 
-    <div
-      ref={scrollRef}
-      className="flex overflow-x-auto scroll-smooth no-scrollbar gap-4 pb-4 w-full"
-      style={{
-        scrollBehavior: "smooth",
-        WebkitOverflowScrolling: "touch",
-      }}
-    >
-      {[
-  { img: img8,  name: "NOIDA INTERNATIONAL AIRPORT" },
-  { img: img3,  name: "BULLET TRAIN" },
-  { img: img10, name: "YAMUNA EXPRESSWAY" },
-  { img: img6,  name: "GALGOTIAS UNIVERSITY" },
-  { img: img5,  name: "DEFENCE CORRIDOR" },
-  { img: img2,  name: "IT-SEZ" },
-  { img: img1,  name: "ISBT" },
-  { img: img4,  name: "F1 TRACK" },
-  { img: img7,  name: "LOGISTIC PARK" },
-  { img: img9,  name: "POD TAXI" },
-]
-.map((item, index) => (
-        <div
-          key={index}
-          className="min-w-[280px] max-w-[280px] h-[300px] md:min-w-[320px] md:max-w-[320px] md:h-[350px]
+          <div
+            ref={scrollRef}
+            className="flex overflow-x-auto scroll-smooth no-scrollbar gap-4 pb-4 w-full"
+            style={{
+              scrollBehavior: "smooth",
+              WebkitOverflowScrolling: "touch",
+            }}
+          >
+            {[
+              { img: img8, name: "NOIDA INTERNATIONAL AIRPORT" },
+              { img: img3, name: "BULLET TRAIN" },
+              { img: img10, name: "YAMUNA EXPRESSWAY" },
+              { img: img6, name: "GALGOTIAS UNIVERSITY" },
+              { img: img5, name: "DEFENCE CORRIDOR" },
+              { img: img2, name: "IT-SEZ" },
+              { img: img1, name: "ISBT" },
+              { img: img4, name: "F1 TRACK" },
+              { img: img7, name: "LOGISTIC PARK" },
+              { img: img9, name: "POD TAXI" },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="min-w-[280px] max-w-[280px] h-[300px] md:min-w-[320px] md:max-w-[320px] md:h-[350px]
                      bg-white/10 backdrop-blur-2xl rounded-2xl shadow-lg 
                      overflow-hidden flex-shrink-0 flex flex-col"
-        >
-          <img
-            src={item.img}
-            alt={`img-${index}`}
-            className="w-full h-[80%] object-cover rounded-t-2xl 
+              >
+                <img
+                  src={item.img}
+                  alt={`img-${index}`}
+                  className="w-full h-[80%] object-cover rounded-t-2xl 
                        transition-transform duration-300 hover:scale-105"
-          />
+                />
 
-          {/* ⬇⬇ IMAGE NAME BELOW IMAGE (SMALL TEXT) */}
-          <p className="text-white text-md py-2">
-            {item.name}
-          </p>
+                {/* ⬇⬇ IMAGE NAME BELOW IMAGE (SMALL TEXT) */}
+                <p className="text-white text-md py-2">{item.name}</p>
+              </div>
+            ))}
+          </div>
+
+          <button
+            onClick={scrollRight}
+            className=" absolute right-2 top-1/2 -translate-y-1/2 
+                 bg-white/80 text-black p-1 rounded-full
+                 hover:bg-white transition z-10 shadow-lg cursor-pointer"
+          >
+            <MdChevronRight size={28} />
+          </button>
         </div>
-      ))}
-    </div>
 
-    <button
-      onClick={scrollRight}
-      className=" absolute right-2 top-1/2 -translate-y-1/2 
+        <div className="flex justify-center gap-4 mt-4">
+          <div className="hidden md:block text-white   shadow-md pointer-events-none">
+            <FaLongArrowAltLeft size={18} />
+          </div>
+          <div className="hidden md:block text-white   shadow-md pointer-events-none">
+            <FaLongArrowAltRight size={18} />
+          </div>
+        </div>
+      </div>
+
+      {/* 4 part-2 FAMOUS LOCATION  */}
+      <div className="w-full px-6 mt-16 text-center max-w-8xl mx-auto">
+        <h2 className="text-white text-2xl md:text-3xl font-semibold mb-6">
+          Famous Locations
+        </h2>
+
+        <div className="relative w-full">
+          {/* Left Scroll Button */}
+          <button
+            onClick={scrollLeft2}
+            className=" absolute left-2 top-1/2 -translate-y-1/2 
                  bg-white/80 text-black p-1 rounded-full
                  hover:bg-white transition z-10 shadow-lg cursor-pointer"
-    >
-      <MdChevronRight size={28} />
-    </button>
-  </div>
+          >
+            <MdChevronLeft size={28} />
+          </button>
 
-  <div className="flex justify-center gap-4 mt-4">
-    <div className="hidden md:block text-white   shadow-md pointer-events-none">
-      <FaLongArrowAltLeft size={18} />
-    </div>
-    <div className="hidden md:block text-white   shadow-md pointer-events-none">
-      <FaLongArrowAltRight size={18} />
-    </div>
-  </div>
-</div>
-
-
-
-{/* 4 part-2 FAMOUS LOCATION  */}
-<div className="w-full px-6 mt-16 text-center max-w-8xl mx-auto">
-  <h2 className="text-white text-2xl md:text-3xl font-semibold mb-6">
-     Famous Locations
-  </h2>
-
-  <div className="relative w-full">
-
-    {/* Left Scroll Button */}
-    <button
-      onClick={scrollLeft2}
-      className=" absolute left-2 top-1/2 -translate-y-1/2 
-                 bg-white/80 text-black p-1 rounded-full
-                 hover:bg-white transition z-10 shadow-lg cursor-pointer"
-    >
-      <MdChevronLeft size={28} />
-    </button>
-
-    {/* Scrollable Images */}
-    <div
-      ref={scrollRef2}
-      className="flex overflow-x-auto scroll-smooth no-scrollbar gap-4 pb-4 w-full"
-      style={{
-        scrollBehavior: "smooth",
-        WebkitOverflowScrolling: "touch",
-      }}
-    >
-      {[
-        { img: img11, name: "ICC CRICKET STADIUM" },
-        { img: img12, name: "FILM CITY" },
-        { img: img20, name: "GAUTAM BUDDHA UNIVERSITY" },
-        { img: img13, name: "NOIDA INTERNATIONAL UNIVERSITY" },
-        { img: img14, name: "NIGHT SAFARI" },
-        { img: img19, name: "JBM UNIVERSITY" },
-        { img: img15, name: "OLYMPIC PARK" },
-        { img: img17, name: "INDUSTRIAL AREA" },
-        { img: img16, name: "EASTERN PERIPHERAL EXPRESSWAY" },
-        { img: img18, name: "DELHI MUMBAI INDUSTRIAL CORRIDOR (DMIC)" },
-      ].map((item, index) => (
-        <div
-          key={index}
-          className="min-w-[280px] max-w-[280px] h-[300px] md:min-w-[320px] md:max-w-[320px] md:h-[350px]
+          {/* Scrollable Images */}
+          <div
+            ref={scrollRef2}
+            className="flex overflow-x-auto scroll-smooth no-scrollbar gap-4 pb-4 w-full"
+            style={{
+              scrollBehavior: "smooth",
+              WebkitOverflowScrolling: "touch",
+            }}
+          >
+            {[
+              { img: img11, name: "ICC CRICKET STADIUM" },
+              { img: img12, name: "FILM CITY" },
+              { img: img20, name: "GAUTAM BUDDHA UNIVERSITY" },
+              { img: img13, name: "NOIDA INTERNATIONAL UNIVERSITY" },
+              { img: img14, name: "NIGHT SAFARI" },
+              { img: img19, name: "JBM UNIVERSITY" },
+              { img: img15, name: "OLYMPIC PARK" },
+              { img: img17, name: "INDUSTRIAL AREA" },
+              { img: img16, name: "EASTERN PERIPHERAL EXPRESSWAY" },
+              { img: img18, name: "DELHI MUMBAI INDUSTRIAL CORRIDOR (DMIC)" },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="min-w-[280px] max-w-[280px] h-[300px] md:min-w-[320px] md:max-w-[320px] md:h-[350px]
                      bg-white/10 backdrop-blur-2xl rounded-2xl shadow-lg 
                      overflow-hidden flex-shrink-0 flex flex-col"
-        >
-          <img
-            src={item.img}
-            alt={`g2-${index}`}
-            className="w-full h-[80%] object-cover rounded-t-2xl 
+              >
+                <img
+                  src={item.img}
+                  alt={`g2-${index}`}
+                  className="w-full h-[80%] object-cover rounded-t-2xl 
                        transition-transform duration-300 hover:scale-105"
-          />
+                />
 
-          {/* NAME BELOW IMAGE */}
-          <p className="text-white text-sm py-2 px-2 text-center">
-            {item.name}
-          </p>
-        </div>
-      ))}
-    </div>
+                {/* NAME BELOW IMAGE */}
+                <p className="text-white text-sm py-2 px-2 text-center">
+                  {item.name}
+                </p>
+              </div>
+            ))}
+          </div>
 
-    {/* Right Scroll Button */}
-    <button
-      onClick={scrollRight2}
-      className=" absolute right-2 top-1/2 -translate-y-1/2 
+          {/* Right Scroll Button */}
+          <button
+            onClick={scrollRight2}
+            className=" absolute right-2 top-1/2 -translate-y-1/2 
                  bg-white/80 text-black p-1 rounded-full
                  hover:bg-white transition z-10 shadow-lg cursor-pointer"
-    >
-      <MdChevronRight size={28} />
-    </button>
-  </div>
+          >
+            <MdChevronRight size={28} />
+          </button>
+        </div>
 
-  {/* Indicator Icons */}
-  <div className="flex justify-center gap-4 mt-4">
-    <div className="hidden md:block text-white   shadow-md pointer-events-none">
-      <FaLongArrowAltLeft size={18} />
-    </div>
-    <div className="hidden md:block text-white   shadow-md pointer-events-none">
-      <FaLongArrowAltRight  size={18} />
-    </div>
-  </div>
-</div>
+        {/* Indicator Icons */}
+        <div className="flex justify-center gap-4 mt-4">
+          <div className="hidden md:block text-white   shadow-md pointer-events-none">
+            <FaLongArrowAltLeft size={18} />
+          </div>
+          <div className="hidden md:block text-white   shadow-md pointer-events-none">
+            <FaLongArrowAltRight size={18} />
+          </div>
+        </div>
+      </div>
 
+      {/* -------- Section: Google Map -------- */}
+      <div className="w-full px-6 mt-10 md:mt-12 text-center max-w-8xl mx-auto">
+        <h2 className="text-white text-2xl md:text-3xl font-semibold mb-6">
+          Our Location
+        </h2>
 
-
-{/* -------- Section: Google Map -------- */}
-<div className="w-full px-6 mt-10 md:mt-12 text-center max-w-8xl mx-auto">
-  <h2 className="text-white text-2xl md:text-3xl font-semibold mb-6">
-    Our Location
-  </h2>
-
-  <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-lg">
-    <iframe
-      title="google-map"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.4308835054373!2d77.56325537538108!3d28.30665610162569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceec9987d99eb%3A0xbcfeea2cbaaa7b61!2sGaur%20Yamuna%20City!5e0!3m2!1sen!2sin!4v1704350040000"
-      width="100%"
-      height="100%"
-      style={{ border: 0 }}
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
-  </div>
-</div>
-
-
+        <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-lg">
+          <iframe
+            title="google-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.4308835054373!2d77.56325537538108!3d28.30665610162569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceec9987d99eb%3A0xbcfeea2cbaaa7b61!2sGaur%20Yamuna%20City!5e0!3m2!1sen!2sin!4v1704350040000"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </>
   );
 };
