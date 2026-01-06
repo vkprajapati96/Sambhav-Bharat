@@ -5,6 +5,7 @@ import coremall2 from "../image/Coremall/coremall2.jpeg";
 import coremall3 from "../image/Coremall/coremall3.jpeg";
 import retail from "../image/Coremall/retail.jpeg";
 import studio from "../image/Coremall/studio.jpeg";
+import about from "../image/Coremall/about.jpeg";
 const TheCoreMall = () => {
   return (
     <div className="font-sans text-neutral-200 bg-black  selection:bg-amber-500/30 overflow-x-hidden">
@@ -98,7 +99,7 @@ const TheCoreMall = () => {
           <div className="h-[300px] md:h-[400px] w-full bg-neutral-900 rounded-[2rem] overflow-hidden shadow-2xl border border-neutral-800 relative group">
             <div className="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity z-10 pointer-events-none"></div>
             <img
-              src={studio}
+              src={about}
               alt="Studio Apartment"
               className="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
             />
@@ -112,9 +113,9 @@ const TheCoreMall = () => {
           <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-amber-500/10 via-transparent to-transparent opacity-60"></div>
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16">
             <div className="space-y-10">
-              <span className="inline-block py-1 px-3 rounded-full bg-amber-900/30 text-amber-500 font-semibold tracking-wider uppercase text-xs border border-amber-500/20">
-                Commercial Heart
-              </span>
+              <span className="inline-block py-1 px-3 rounded-full  text-white font-semibold tracking-wider uppercase text-xs border border-white">
+                Core Zone 
+                             </span>
               <div className="flex flex-col gap-10 md:gap-16">
                 <div className="flex flex-col gap-4">
                   <h2 className="text-3xl md:text-4xl font-bold">
@@ -149,7 +150,7 @@ const TheCoreMall = () => {
                 />
                 <div className="absolute bottom-4 left-4 z-20">
                   <span className="bg-black/50 backdrop-blur-md text-white text-xs md:text-sm px-3 py-1 rounded-full border border-white/10 uppercase tracking-wide">
-                    Apartments
+                  Studio  Apartments
                   </span>
                 </div>
               </div>
@@ -162,7 +163,7 @@ const TheCoreMall = () => {
                 />
                 <div className="absolute bottom-4 left-4 z-20">
                   <span className="bg-black/50 backdrop-blur-md text-white text-xs md:text-sm px-3 py-1 rounded-full border border-white/10 uppercase tracking-wide">
-                    Retail
+                    Retail Shops
                   </span>
                 </div>
               </div>
