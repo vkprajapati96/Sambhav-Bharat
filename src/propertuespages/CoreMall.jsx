@@ -168,11 +168,11 @@ const TheCoreMall = () => {
                 {/* Location & Map Section */}
                 <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
                     {/* Map */}
-                    <div className="bg-neutral-900/40 p-2 rounded-[2rem] border border-neutral-800 shadow-xl backdrop-blur-sm h-[300px] md:h-auto min-h-[300px]">
+                    <div className=" p-2 rounded-[2rem] border border-neutral-800 shadow-xl h-[300px] md:h-auto min-h-[300px]">
                         <div className="w-full h-full rounded-[1.5rem] overflow-hidden">
                             <iframe
                                 title="Google Map Location"
-                                className="w-full h-full border-0 grayscale hover:grayscale-0 transition-all duration-500"
+                                className="w-full h-full  "
                                 loading="lazy"
                                 allowFullScreen
                                 referrerPolicy="no-referrer-when-downgrade"
