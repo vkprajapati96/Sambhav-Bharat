@@ -13,11 +13,13 @@ const CoreMall = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-blue-900/20 blur-[100px] -z-10 rounded-full"></div>
 
         <h1 className="text-2xl md:py-3  md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-200 to-neutral-500 tracking-tight  pt-3">
-THE CORE MALL
+          THE CORE MALL
         </h1>
         <p className="text-lg md:text-2xl text-neutral-400 leading-relaxed font-light">
-Discover premium retail spaces & modern studio apartments at The Core Mall, Ghaziabad-where luxury meets a prime location, 
-         offering world-class amenities for smart investments and thriving businesses. come tomorrow.{" "}
+          Discover premium retail spaces & modern studio apartments at The Core
+          Mall, Ghaziabad-where luxury meets a prime location, offering
+          world-class amenities for smart investments and thriving businesses.
+          come tomorrow.{" "}
         </p>
       </section>
       {/* Hero Section - 4 Images Grid */}
@@ -86,114 +88,26 @@ Discover premium retail spaces & modern studio apartments at The Core Mall, Ghaz
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-10 order-2 lg:order-1">
             <div className="space-y-4">
-              <span className="inline-block py-1 px-3 rounded-full bg-blue-900/30 text-blue-400 font-semibold tracking-wider uppercase text-xs border border-blue-500/20">
-                Live Premium
+              <span className="inline-block py-1 px-3 text-xl rounded-full   font-semibold tracking-wider uppercase text-white  border border-white">
+                About
               </span>
-              <h2 className="text-4xl md:text-5xl font-bold text-white">
-                Studio Apartments
+              <h2 className="text-2xl md:text-3xl font-bold text-white">
+                A Landmark of Modern Commerce
               </h2>
               <p className="text-lg text-neutral-400 leading-relaxed">
-                Fully furnished, modern living spaces designed for professionals
-                and investors. Located within the mall complex, offering a
-                perfect mix of luxury and convenience.
+                The Core Mall is a landmark commercial destination in Ghaziabad,
+                offering premium retail spaces and fully furnished studio
+                apartments in a prime, high-footfall location. Strategically
+                located on NH-24 at Crossings Republik, it blends modern
+                architecture, world-class amenities, and strong connectivity to
+                create an ideal environment for businesses, professionals, and
+                investors. Designed for high visibility, convenience, and
+                long-term value, The Core Mall sets a new benchmark in urban
+                lifestyle and smart real estate investment.{" "}
               </p>
             </div>
-            <ul className="grid gap-6">
-              {[
-                {
-                  title: "Move-in Ready",
-                  desc: "Fully furnished 'plug-and-play' units.",
-                },
-                {
-                  title: "Prime Location",
-                  desc: "NH-24, entrance of Crossings Republik.",
-                },
-                {
-                  title: "High Demand",
-                  desc: "Perfect for Noida Sector 62 professionals.",
-                },
-                { title: "Great ROI", desc: "Ideal for high rental income." },
-              ].map((item, i) => (
-                <li key={i} className="flex gap-5 items-start">
-                  <div className="w-12 h-12 rounded-2xl bg-neutral-900 flex items-center justify-center flex-shrink-0 text-blue-400 border border-neutral-800 shadow-lg group-hover:border-blue-500/50 transition-colors">
-                    {i === 0 && (
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                        ></path>
-                      </svg>
-                    )}
-                    {i === 1 && (
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                        ></path>
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                        ></path>
-                      </svg>
-                    )}
-                    {i === 2 && (
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-                        ></path>
-                      </svg>
-                    )}
-                    {i === 3 && (
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                        ></path>
-                      </svg>
-                    )}
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-white text-lg">
-                      {item.title}
-                    </h4>
-                    <p className="text-neutral-500 text-sm mt-1">{item.desc}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
           </div>
-          <div className="order-1 lg:order-2 h-[400px] lg:h-[600px] w-full bg-neutral-900 rounded-[2.5rem] overflow-hidden shadow-2xl border border-neutral-800 relative group">
+          <div className="order-1 lg:order-2 h-[400px] lg:h-[400px] w-full bg-neutral-900 rounded-[2.5rem] overflow-hidden shadow-2xl border border-neutral-800 relative group">
             <div className="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity z-10 pointer-events-none"></div>
             <img
               src={dholera1}
@@ -203,7 +117,8 @@ Discover premium retail spaces & modern studio apartments at The Core Mall, Ghaz
           </div>
         </section>
         {/* Retail & Food Court */}
-         <section className="bg-gradient-to-br from-neutral-900 to-black text-white rounded-[3rem] p-8 lg:p-20 overflow-hidden relative  shadow-2xl">
+
+        <section className="bg-gradient-to-br from-neutral-900 to-black text-white rounded-[3rem] p-8 lg:p-20 overflow-hidden relative  shadow-2xl">
           <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-amber-500/10 via-transparent to-transparent opacity-60"></div>
 
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -211,30 +126,30 @@ Discover premium retail spaces & modern studio apartments at The Core Mall, Ghaz
               <span className="inline-block py-1 px-3 rounded-full bg-amber-900/30 text-amber-500 font-semibold tracking-wider uppercase text-xs border border-amber-500/20">
                 Commercial Heart
               </span>
-              <h2 className="text-4xl md:text-5xl font-bold">
-                Retail & Food Court
-              </h2>
-              <p className="text-neutral-300 text-lg leading-relaxed">
-                Designed for high footfall and brand visibility, featuring a
-                unique glass dome and 'see-through' design. Anchored by Miraj
-                Cinemas ensuring thousands of visitors.
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10 pt-4">
-                {[
-                  { num: "1 Lakh+", label: "Residents Locally" },
-                  { num: "16-Lane", label: "Expressway Frontage" },
-                  { num: "Miraj CMS", label: "Cinema Anchor" },
-                  { num: "Glass Dome", label: "Iconic Design" },
-                ].map((stat, i) => (
-                  <div key={i} className="border-l-2 border-amber-600/30 pl-6">
-                    <div className="text-3xl font-bold text-amber-400">
-                      {stat.num}
-                    </div>
-                    <div className="text-sm text-neutral-500 uppercase tracking-widest mt-2 font-medium">
-                      {stat.label}
-                    </div>
-                  </div>
-                ))}
+              <div className="flex flex-col gap-20">
+                <div className="flex flex-col gap-5">
+                  {" "}
+                  <h2 className="text-4xl md:text-5xl font-bold">
+                    Studio Apartments
+                  </h2>
+                  <p className="text-neutral-300 text-lg leading-relaxed">
+                    Fully furnished, move-in-ready studio apartments designed
+                    for modern professionals and investors, offering a prime
+                    NH-24 location, everyday convenience, and strong rental
+                    demand.
+                  </p>
+                </div>
+                <div className="flex flex-col gap-5"> 
+                  {" "}
+                  <h2 className="text-4xl md:text-5xl font-bold">
+                    Retail & Food Court
+                  </h2>
+                  <p className="text-neutral-300 text-lg leading-relaxed">
+                    Premium retail and food court spaces anchored by Miraj
+                    Cinemas, designed for high footfall, excellent visibility,
+                    and sustainable business growth.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="grid gap-6">
@@ -267,46 +182,33 @@ Discover premium retail spaces & modern studio apartments at The Core Mall, Ghaz
             </div>
           </div>
         </section>
-        {/* Amenities & Advantages */}
+        {/*  Advantages */}
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-neutral-900/40 p-10 rounded-[2.5rem] border border-neutral-800 shadow-xl backdrop-blur-sm">
-            <h3 className="text-2xl font-bold mb-8 flex items-center gap-4 text-white">
-              <span className="w-1.5 h-8 bg-gradient-to-b from-blue-400 to-blue-600 rounded-full"></span>
-              World-Class Amenities
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {[
-                "Iconic Dome Design",
-                "Multi-level Parking",
-                "24/7 CCTV Security",
-                "100% Power Backup",
-                "High-speed Glass Lifts",
-                "Fire Safety Systems",
-              ].map((amenity, i) => (
-                <div
-                  key={i}
-                  className="flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/5 hover:bg-white/10 transition-all hover:translate-x-1"
-                >
-                  <div className="w-2 h-2 bg-blue-500 rounded-full shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
-                  <span className="text-sm font-medium text-neutral-300">
-                    {amenity}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
+<div className="bg-neutral-900/40  rounded-[2.5rem] border border-neutral-800 shadow-xl backdrop-blur-sm">
+<div className="w-full h-full  rounded-2xl overflow-hidden">
+  <iframe
+    className="w-full h-full border-0"
+    loading="lazy"
+    allowFullScreen
+    referrerPolicy="no-referrer-when-downgrade"
+    src="https://maps.google.com/maps?q=The%20Concept%20Core%20Mall&t=&z=15&ie=UTF8&iwloc=&output=embed"
+  />
+</div>
+
+
+</div>
           <div className="bg-neutral-900/40 p-10 rounded-[2.5rem] border border-neutral-800 shadow-xl backdrop-blur-sm">
             <h3 className="text-2xl font-bold mb-8 flex items-center gap-4 text-white">
               <span className="w-1.5 h-8 bg-gradient-to-b from-amber-400 to-amber-600 rounded-full"></span>
-              Location Advantages
+Site Location
             </h3>
             <ul className="space-y-4">
               {[
-                "Directly on NH-24 Delhi-Meerut Expressway",
-                "Entrance of Crossings Republik (1 Lakh+ residents)",
-                "10 mins from Noida Sector 62 & Electronic City",
-                "Walking distance to ABES Engineering College",
-                "15 mins to nearest Metro & Delhi",
+                "The Core Mall, Crossing Republik, Ghaziabad, Uttar Pradesh",
+                "4 km from Gaur City Mall",
+                "1 km from Crossing Republic, Ghaziabad",
+                "1 km from ABES Engineering College",
+                "1 km from Ashiyana Space Premium PG & Schools"
               ].map((loc, i) => (
                 <li
                   key={i}
@@ -345,7 +247,6 @@ Discover premium retail spaces & modern studio apartments at The Core Mall, Ghaz
       {/* Footer */}
     </div>
   );
-
 };
 
 export default CoreMall;
