@@ -29,7 +29,7 @@ const Footer = () => {
                 {/* Right Side - Contact Info & Social Media */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-3 mt-4 md:mt-0">
                     <p className="text-lg 2xl:text-xl leading-relaxed">
-                        Address: Sector 2, Noida, Uttar Pradesh, 201301,                     </p>
+                        Address: Sector 2, Noida, Uttar Pradesh 201301              </p>
                     <p className="text-lg 2xl:text-lg leading-relaxed">
                         Email: sambhavbharatprop@gmail.com
                     </p>

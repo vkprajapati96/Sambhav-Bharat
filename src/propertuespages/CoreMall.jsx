@@ -6,7 +6,8 @@ import coremall3 from "../image/Coremall/coremall3.jpeg";
 import retail from "../image/Coremall/retail.jpeg";
 import studio from "../image/Coremall/studio.jpeg";
 import about from "../image/Coremall/about.jpeg";
-const TheCoreMall = () => {
+import Contact from "../pages/Contact";
+const CoreMall = () => {
   return (
     <div className="font-sans text-neutral-200 bg-black  selection:bg-amber-500/30 overflow-x-hidden">
       {/* Intro Section - Top */}
@@ -84,7 +85,7 @@ const TheCoreMall = () => {
               </h2>
               <p className="text-base md:text-lg text-neutral-400 leading-relaxed">
                 The Core Mall is a landmark commercial destination in Ghaziabad,
-                offering premium retail spaces and fully furnished studio
+                offering premium retail spaces and studio
                 apartments in a prime, high-footfall location. Strategically
                 located on NH-24 at Crossings Republik, it blends modern
                 architecture, world-class amenities, and strong connectivity to
@@ -94,6 +95,7 @@ const TheCoreMall = () => {
                 lifestyle and smart real estate investment.
               </p>
             </div>
+
           </div>
           {/* Image Wrapper */}
           <div className="h-[300px] md:h-[400px] w-full bg-neutral-900 rounded-[2rem] overflow-hidden shadow-2xl border border-neutral-800 relative group">
@@ -114,7 +116,7 @@ const TheCoreMall = () => {
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16">
             <div className="space-y-10">
               <span className="inline-block py-1 px-3 rounded-full  text-white font-semibold tracking-wider uppercase text-xs border border-white">
-                Core Zone 
+               the Core Zone 
                              </span>
               <div className="flex flex-col gap-10 md:gap-16">
                 <div className="flex flex-col gap-4">
@@ -122,7 +124,7 @@ const TheCoreMall = () => {
                     Studio Apartments
                   </h2>
                   <p className="text-neutral-300 text-base md:text-lg leading-relaxed">
-                    Fully furnished, move-in-ready studio apartments designed
+                      move-in-ready studio apartments designed
                     for modern professionals and investors, offering a prime
                     NH-24 location, everyday convenience, and strong rental
                     demand.
@@ -239,4 +241,4 @@ const TheCoreMall = () => {
     </div>
   );
 };
-export default TheCoreMall;
+export default CoreMall;
