@@ -104,7 +104,7 @@ const TheCoreMall = () => {
                     </div>
                 </section>
                 {/* Commercial Section (Retail & Food Court) */}
-                <section className="bg-gradient-to-br from-neutral-900 to-black text-white rounded-[2rem] md:rounded-[3rem] p-8 lg:p-16 overflow-hidden relative shadow-2xl">
+                <section className="bg-gradient-to-br from-neutral-900 to-black text-white rounded-[2rem] md:rounded-[3rem] py-8 lg:p-16 overflow-hidden relative shadow-2xl">
                     <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-amber-500/10 via-transparent to-transparent opacity-60"></div>
                     <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16">
                         <div className="space-y-10">
