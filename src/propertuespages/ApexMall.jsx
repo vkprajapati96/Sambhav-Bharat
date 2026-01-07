@@ -1,4 +1,6 @@
 import React from "react";
+// import { IoArrowDown } from "react-icons/io5";
+
 // Using existing images as placeholders
 import apex1 from "../image/Apexmall/apex1.jpeg";
 import apex2 from "../image/Apexmall/apex2.jpeg";
@@ -17,7 +19,7 @@ import {
 } from "react-icons/fa";
 const ApexMall = () => {
   return (
-    <div className="font-sans text-neutral-200 bg-black min-h-screen selection:bg-amber-500/30 overflow-x-hidden">
+    <div className="font-sans text-neutral-200 bg-black overflow-x-hidden">
       {/* Intro Section - Top */}
       <section className="text-center max-w-4xl mx-auto space-y-6 md:space-y-8 relative pb-10 px-4">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[200px] md:w-[500px] md:h-[300px] bg-blue-900/20 blur-[100px] -z-10 rounded-full"></div>
@@ -78,10 +80,10 @@ const ApexMall = () => {
           </div>
         </div>
       </section>
-      <main className="max-w-7xl mx-auto px-6 py-10 md:py-16 space-y-20 md:space-y-32">
+      <main className="max-w-7xl mx-auto px-6 py-10 md:py-16 space-y-20 md:space-y-20">
         {/* About Section - Left Image, Right Content */}
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
-                      {/* Content Wrapper (Right) */}
+          {/* Content Wrapper (Right) */}
 
           <div className="space-y-8 md:space-y-10">
             <div className="space-y-4">
@@ -89,7 +91,7 @@ const ApexMall = () => {
                 About
               </span>
               <h2 className="text-cetner md:text-left text-2xl md:text-4xl font-bold text-white">
-                Premium Commercial Destination
+                welcome to apex park square
               </h2>
               <p className="text-base md:text-lg text-neutral-400 leading-relaxed">
                 Welcome to Apex Park Square – a premium commercial destination
@@ -114,7 +116,6 @@ const ApexMall = () => {
               className="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
             />
           </div>
-
         </section>
         {/* Amenities Section - Cards with Icons */}
         <section className="space-y-12">
@@ -151,9 +152,9 @@ const ApexMall = () => {
         </section>
 
         {/* Project Highlights Section - Left Map, Right Highlights */}
-        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
-          {/* Map (Left) */}
-          <div className="bg-neutral-900/40 p-2 rounded-[2rem] border border-neutral-800 shadow-xl backdrop-blur-sm h-[300px] md:h-auto min-h-[400px]">
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12  ">
+          {/* Map (Left) - Fixed Height */}
+          <div className="bg-neutral-900/40 p-2 rounded-[2rem] border border-neutral-800 shadow-xl backdrop-blur-sm h-[500px]">
             <div className="w-full h-full rounded-[1.5rem] overflow-hidden">
               <iframe
                 title="Google Map Location"
@@ -166,55 +167,79 @@ const ApexMall = () => {
             </div>
           </div>
 
-          {/* Highlights List (Right) */}
-          <div className="bg-neutral-900/40 p-8 md:p-10 rounded-[2rem] border border-neutral-800 shadow-xl backdrop-blur-sm">
-            <h3 className="text-2xl font-bold mb-8 flex items-center gap-4 text-white">
+          {/* Highlights List (Right) - Fixed Height with Custom Slider */}
+          <div className="relavtie bg-neutral-900/40 p-8 md:p-10 rounded-[2rem] border border-neutral-800 shadow-xl backdrop-blur-sm h-[500px] flex flex-col">
+            <div className="bg-amber-900/20 px-2 rounded-lg text-amber-500 text-3xl absolute bottom-10  right-5 ">
+              {" "}
+              ↓{" "}
+            </div>
+            <h3 className="text-2xl font-bold mb-6 flex items-center gap-4 text-white flex-shrink-0">
               <span className="w-1.5 h-8 bg-gradient-to-b from-amber-400 to-amber-600 rounded-full"></span>
               Project Highlights
             </h3>
-            <ul className="space-y-4">
-              {[
-                "Total land area: Approx. 2.38 acres",
-                "100% commercial mall project",
-                "Prime location in Sector 16B, Greater Noida West",
-                "3-side open project with over 1 lakh surrounding families",
-                "Close to proposed Metro Station (approx. 1 km)",
-                "Features hypermarket & 5-screen multiplex",
-                "Surrounded by major residential, IT/ITES & industrial hubs",
-                "Air-conditioned food court with large seating area",
-                "Presence of national & international brands",
-                "2 mins from Gaur Chowk & Gaur City Mall",
-                "4 mins from FNG Corridor",
-                "8 mins from Sai Mandir, Sector 71 & Sector 52 Metro",
-                "10 mins from Fortis Hospital, Sector 62",
-              ].map((highlight, i) => (
-                <li
-                  key={i}
-                  className="flex items-start gap-4 p-2 rounded-xl hover:bg-white/5 transition-colors"
-                >
-                  <div className="bg-amber-900/20 p-2 rounded-lg text-amber-500 shrink-0">
-                    <svg
-                      className="w-4 h-4"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span className="text-neutral-400 text-sm md:text-base leading-relaxed">
-                    {highlight}
-                  </span>
-                </li>
-              ))}
-            </ul>
+            {/* Scrollable Container with Custom Slider Class */}
+            <div className="overflow-y-auto pr-2 flex-grow custom-scrollbar">
+              <ul className="space-y-4">
+                {[
+                  "Total land area: Approx. 2.38 acres",
+                  "100% commercial mall project",
+                  "Prime location in Sector 16B, Greater Noida West",
+                  "3-side open project with over 1 lakh surrounding families",
+                  "Close to proposed Metro Station (approx. 1 km)",
+                  "Features hypermarket & 5-screen multiplex",
+                  "Surrounded by major residential, IT/ITES & industrial hubs",
+                  "Air-conditioned food court with large seating area",
+                  "Presence of national & international brands",
+                  "2 mins from Gaur Chowk & Gaur City Mall",
+                  "4 mins from FNG Corridor",
+                  "8 mins from Sai Mandir, Sector 71 & Sector 52 Metro",
+                  "10 mins from Fortis Hospital, Sector 62",
+                  "High-speed elevators and escalators",
+                  "Ample parking space for visitors",
+                  "24/7 power backup and security",
+                ].map((highlight, i) => (
+                  <li
+                    key={i}
+                    className="flex items-start gap-4 p-2 rounded-xl hover:bg-white/5 transition-colors"
+                  >
+                    <div className="bg-amber-900/20 p-2 rounded-lg text-amber-500 shrink-0">
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="text-neutral-400 text-sm md:text-base leading-relaxed">
+                      {highlight}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </section>
+
+        {/* RERA Registration Details */}
+
+        <div className="flex justify-center w-full px-4 ">
+          <div className="inline-flex flex-col md:flex-row items-center gap-2 md:gap-3 bg-neutral-900/80 border border-neutral-800 px-6 py-3 rounded-lg shadow-lg backdrop-blur-md">
+            <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse hidden md:block"></span>
+            <p className="text-sm md:text-base text-neutral-300 text-center">
+              Apex Park Square is registered under RERA with development id
+            </p>
+            <span className="text-amber-500 font-bold tracking-wider font-mono text-sm md:text-base border border-amber-900/30 bg-amber-900/10 px-2 py-0.5 rounded">
+              UPRERAPRJ16178
+            </span>
+          </div>
+        </div>
       </main>
     </div>
   );

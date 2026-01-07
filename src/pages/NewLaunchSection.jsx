@@ -12,8 +12,8 @@ import newlauncimage from "../image/newlauncimage.jpeg";
 import newlauncimage1 from "../image/newlauncimage1.jpeg";
 import dholera from "../image/dholera.jpeg";
 import finallyArrived from "../image/finally-Arrived.jpeg";
-import coremall from "../image/Coremall/coremall1.jpeg"
-import apexfront from "../image/Apexmall/apex4.jpeg"
+import coremall from "../image/Coremall/coremall1.jpeg";
+import apexfront from "../image/Apexmall/apex4.jpeg";
 
 function NewLaunchSection() {
   const scrollRef = useRef(null);
@@ -94,7 +94,7 @@ function NewLaunchSection() {
         <div className="mt-10">
           <div className="lg:absolute relative inset-0 flex items-center justify-center z-10 px-6 lg:mt-16">
             {/* 👈 Left Scroll Button */}
-         
+
             <button
               onClick={scrollLeft}
               className=" cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-black p-3 rounded-full shadow-lg z-20 transition"
@@ -112,9 +112,9 @@ function NewLaunchSection() {
               {/* Card 1 */}
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <span className="absolute top-2 left-2 bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
-                   Rera Received
+                  Rera Received
                 </span>
-                
+
                 {/* View Eye Button - Top Right */}
                 <Link
                   to="/haridwar"
@@ -385,7 +385,7 @@ function NewLaunchSection() {
                   If you want to know more about this place, please connect with
                   us.
                 </p>
-                
+
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
                     onClick={handleDownloadPrimeVIsta}
@@ -400,10 +400,10 @@ function NewLaunchSection() {
                   </Link>
                 </div>
               </div>
-              
+
               {/* card 9 */}
 
-               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/gaim-dholera"
                   className="absolute top-2 left-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
@@ -418,12 +418,14 @@ function NewLaunchSection() {
                     alt=""
                   />
                 </Link>
-                <p className="text-white mt-2 px-2 mb-3">Location : Gaim Dholera (Gujarat) </p>
+                <p className="text-white mt-2 px-2 mb-3">
+                  Location : Gaim Dholera (Gujarat){" "}
+                </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
                   us.
                 </p>
-                
+
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
                     onClick={handleDownloadCrystalVillas}
@@ -441,7 +443,7 @@ function NewLaunchSection() {
 
               {/* card 10 */}
 
-               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/core-mall"
                   className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
@@ -456,14 +458,16 @@ function NewLaunchSection() {
                     alt=""
                   />
                 </Link>
-                <p className="text-white mt-2 px-2 mb-3">Location :Ghaziabad,(Uttar Pradesh) </p>
+                <p className="text-white mt-2 px-2 mb-3">
+                  Location : Core Mall (Ghaziabad)
+                </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
                   us.
                 </p>
-                
+
                 <div className="flex items-center gap-3 px-2 pb-3">
-            <Link to="/contact">
+                  <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us
                     </button>
@@ -471,8 +475,8 @@ function NewLaunchSection() {
                 </div>
               </div>
               {/* card 11 */}
-               
-                 <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+
+              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/apex-mall"
                   className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
@@ -487,24 +491,21 @@ function NewLaunchSection() {
                     alt=""
                   />
                 </Link>
-                <p className="text-white mt-2 px-2 mb-3">Location :Ghaziabad,(Uttar Pradesh) </p>
+                <p className="text-white mt-2 px-2 mb-3">
+                  Location : Apex Park Square,(Greater Noida West)                </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
                   us.
                 </p>
-                
+
                 <div className="flex items-center gap-3 px-2 pb-3">
-            <Link to="/contact">
+                  <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us
                     </button>
                   </Link>
                 </div>
               </div>
-
-
-
-
             </div>
 
             {/* 👉 Right Scroll Button */}
@@ -514,7 +515,6 @@ function NewLaunchSection() {
             >
               <FaChevronRight size={24} />
             </button>
-
           </div>
         </div>
       </div>
