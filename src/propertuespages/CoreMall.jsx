@@ -9,7 +9,7 @@ import about from "../image/Coremall/about.jpeg";
 import Contact from "../pages/Contact";
 const CoreMall = () => {
   return (
-    <div className="font-sans text-neutral-200 bg-black  selection:bg-amber-500/30 overflow-x-hidden">
+    <div className="font-sans text-neutral-200 bg-black  overflow-x-hidden">
       {/* Intro Section - Top */}
       <section className="text-center max-w-4xl mx-auto space-y-6 md:space-y-8 relative pt-10 pb-10 px-4">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[200px] md:w-[500px] md:h-[300px] bg-blue-900/20 blur-[100px] -z-10 rounded-full"></div>

@@ -18,6 +18,7 @@ import TheVelley from './propertuespages/TheVelley'
 import PrimeVista from './propertuespages/PrimeVista'
 import GaimDholera from './propertuespages/GaimDholera'
 import CoreMall from './propertuespages/CoreMall'
+import ApexMall from './propertuespages/ApexMall'
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
       <Route path="/prime-vista" element={<PrimeVista/>}/>
       <Route path="/gaim-dholera" element={<GaimDholera/>}/>
       <Route path="/core-mall" element={<CoreMall/>}/>
+      <Route path="/apex-mall" element={<ApexMall/>}/>
      </Routes>
      <Footer/>
     </BrowserRouter>
