@@ -16,9 +16,10 @@ import {
 } from "react-icons/fa";
 const ApexMall = () => {
   return (
-    
+
     <div className="font-sans text-neutral-200 bg-black min-h-screen selection:bg-amber-500/30 overflow-x-hidden">
       {/* Intro Section - Top */}
+      
       <section className="text-center max-w-4xl mx-auto space-y-6 md:space-y-8 relative pb-10 px-4">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[200px] md:w-[500px] md:h-[300px] bg-blue-900/20 blur-[100px] -z-10 rounded-full"></div>
         <h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-200 to-neutral-500 tracking-tight pt-3">
