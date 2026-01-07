@@ -91,10 +91,10 @@ const ApexMall = () => {
                 About
               </span>
               <h2 className="text-cetner md:text-left text-2xl md:text-4xl font-bold text-white">
-                welcome to apex park square
+                Welcome to Apex Park Square
               </h2>
               <p className="text-base md:text-lg text-neutral-400 leading-relaxed">
-                Welcome to Apex Park Square – a premium commercial destination
+                A premium commercial destination
                 in Noida Extension. Developed by Floral Realtech and located in
                 Sector-16B, Greater Noida West, Apex Park Square offers a
                 perfect blend of business and lifestyle spaces. The project
@@ -230,7 +230,6 @@ const ApexMall = () => {
 
         <div className="flex justify-center w-full px-4 ">
           <div className="inline-flex flex-col md:flex-row items-center gap-2 md:gap-3 bg-neutral-900/80 border border-neutral-800 px-6 py-3 rounded-lg shadow-lg backdrop-blur-md">
-            <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse hidden md:block"></span>
             <p className="text-sm md:text-base text-neutral-300 text-center">
               Apex Park Square is registered under RERA with development id
             </p>
