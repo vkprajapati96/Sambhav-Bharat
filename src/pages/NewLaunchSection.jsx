@@ -459,7 +459,7 @@ function NewLaunchSection() {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : Core Mall (Ghaziabad)
+                  Location : The Core Mall (Ghaziabad)
                 </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
@@ -492,7 +492,7 @@ function NewLaunchSection() {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : Apex Park Square,(Greater Noida West)                </p>
+                  Location : Apex Park Square (Greater Noida West)                </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
                   us.

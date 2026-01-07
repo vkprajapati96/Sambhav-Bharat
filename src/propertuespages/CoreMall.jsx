@@ -237,6 +237,17 @@ const CoreMall = () => {
             </ul>
           </div>
         </section>
+
+{/*RERA*/}
+ <div className="flex justify-center w-full px-4 ">
+          <div className="inline-flex flex-col md:flex-row items-center gap-2 md:gap-3 bg-neutral-900/80 border border-neutral-800 px-6 py-3 rounded-lg shadow-lg backdrop-blur-md">
+            <p className="text-sm md:text-base text-neutral-300 text-center">
+The Core Mall is registered under RERA with development id             </p>
+            <span className="text-amber-500 font-bold tracking-wider font-mono text-sm md:text-base border border-amber-900/30 bg-amber-900/10 px-2 py-0.5 rounded">
+UPRERAPRJ9641            </span>
+          </div>
+        </div>
+
       </main>
     </div>
   );
