@@ -169,9 +169,8 @@ const ApexMall = () => {
 
           {/* Highlights List (Right) - Fixed Height with Custom Slider */}
           <div className="relavtie bg-neutral-900/40 p-8 md:p-10 rounded-[2rem] border border-neutral-800 shadow-xl backdrop-blur-sm h-[500px] flex flex-col">
-            <div className="bg-amber-900/20 px-2 rounded-lg text-amber-500 text-3xl absolute bottom-10  right-5 ">
-              {" "}
-              ↓{" "}
+            <div className="bg-amber-900/20 px-2 rounded-lg text-amber-500 text-xl  md:text-3xl absolute bottom-10  right-5 ">
+              ↓
             </div>
             <h3 className="text-2xl font-bold mb-6 flex items-center gap-4 text-white flex-shrink-0">
               <span className="w-1.5 h-8 bg-gradient-to-b from-amber-400 to-amber-600 rounded-full"></span>
