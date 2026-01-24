@@ -18,10 +18,11 @@ const CoreMall = () => {
         </h1>
         <p className="text-lg md:text-2xl text-neutral-400 leading-relaxed font-light">
           Discover premium retail spaces & modern studio apartments at The Core
-          Mall, Ghaziabad—where luxury meets a prime location, offering
+          Mall, Ghaziabad-where luxury meets a prime location, offering
           world-class amenities for smart investments and thriving businesses.
         </p>
       </section>
+
       {/* Hero Section - 4 Images Grid (2x2 Layout) */}
 
       <section className="w-full max-w-8xl mx-auto p-4 md:pb-12">
@@ -85,17 +86,16 @@ const CoreMall = () => {
               </h2>
               <p className="text-base md:text-lg text-neutral-400 leading-relaxed">
                 The Core Mall is a landmark commercial destination in Ghaziabad,
-                offering premium retail spaces and studio
-                apartments in a prime, high-footfall location. Strategically
-                located on NH-24 at Crossings Republik, it blends modern
-                architecture, world-class amenities, and strong connectivity to
-                create an ideal environment for businesses, professionals, and
-                investors. Designed for high visibility, convenience, and
-                long-term value, The Core Mall sets a new benchmark in urban
-                lifestyle and smart real estate investment.
+                offering premium retail spaces and studio apartments in a prime,
+                high-footfall location. Strategically located on NH-24 at
+                Crossings Republik, it blends modern architecture, world-class
+                amenities, and strong connectivity to create an ideal
+                environment for businesses, professionals, and investors.
+                Designed for high visibility, convenience, and long-term value,
+                The Core Mall sets a new benchmark in urban lifestyle and smart
+                real estate investment.
               </p>
             </div>
-
           </div>
           {/* Image Wrapper */}
           <div className="h-[300px] md:h-[400px] w-full bg-neutral-900 rounded-[2rem] overflow-hidden shadow-2xl border border-neutral-800 relative group">
@@ -106,28 +106,26 @@ const CoreMall = () => {
               className="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
             />
           </div>
-      
         </section>
 
         {/* Commercial Section (Retail & Food Court) */}
-      
+
         <section className="bg-gradient-to-br  from-neutral-900 to-black text-white rounded-[2rem] md:rounded-[3rem] py-8 lg:p-16 overflow-hidden relative shadow-2xl">
           <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-amber-500/10 via-transparent to-transparent opacity-60"></div>
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16">
             <div className="space-y-10">
               <span className="inline-block py-1 px-3 rounded-full  text-white font-semibold tracking-wider uppercase text-xs border border-white">
-               the Core Zone 
-                             </span>
+                the Core Zone
+              </span>
               <div className="flex flex-col gap-10 md:gap-16">
                 <div className="flex flex-col gap-4">
                   <h2 className="text-3xl md:text-4xl font-bold">
                     Studio Apartments
                   </h2>
                   <p className="text-neutral-300 text-base md:text-lg leading-relaxed">
-                      move-in-ready studio apartments designed
-                    for modern professionals and investors, offering a prime
-                    NH-24 location, everyday convenience, and strong rental
-                    demand.
+                    move-in-ready studio apartments designed for modern
+                    professionals and investors, offering a prime NH-24
+                    location, everyday convenience, and strong rental demand.
                   </p>
                 </div>
                 <div className="flex flex-col gap-4">
@@ -152,7 +150,7 @@ const CoreMall = () => {
                 />
                 <div className="absolute bottom-4 left-4 z-20">
                   <span className="bg-black/50 backdrop-blur-md text-white text-xs md:text-sm px-3 py-1 rounded-full border border-white/10 uppercase tracking-wide">
-                  Studio  Apartments
+                    Studio Apartments
                   </span>
                 </div>
               </div>
@@ -171,9 +169,7 @@ const CoreMall = () => {
               </div>
             </div>
           </div>
-    
         </section>
-
 
         {/* Location & Map Section */}
         <section className="grid  grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
@@ -238,16 +234,17 @@ const CoreMall = () => {
           </div>
         </section>
 
-{/*RERA*/}
- <div className="flex justify-center w-full px-4 ">
+        {/*RERA*/}
+        <div className="flex justify-center w-full px-4 ">
           <div className="inline-flex flex-col md:flex-row items-center gap-2 md:gap-3 bg-neutral-900/80 border border-neutral-800 px-6 py-3 rounded-lg shadow-lg backdrop-blur-md">
             <p className="text-sm md:text-base text-neutral-300 text-center">
-The Core Mall is registered under RERA with development id             </p>
+              The Core Mall is registered under RERA with development id
+            </p>
             <span className="text-amber-500 font-bold tracking-wider font-mono text-sm md:text-base border border-amber-900/30 bg-amber-900/10 px-2 py-0.5 rounded">
-UPRERAPRJ9641            </span>
+              UPRERAPRJ9641
+            </span>
           </div>
         </div>
-
       </main>
     </div>
   );

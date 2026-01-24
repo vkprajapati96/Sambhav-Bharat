@@ -11,7 +11,7 @@ import thevelley from "../image/thevelley.JPG";
 import newlauncimage from "../image/newlauncimage.jpeg";
 import newlauncimage1 from "../image/newlauncimage1.jpeg";
 import dholera from "../image/dholera.jpeg";
-import finallyArrived from "../image/finally-Arrived.jpeg";
+// import finallyArrived from "../image/finally-Arrived.jpeg";
 import coremall from "../image/Coremall/coremall1.jpeg";
 import apexfront from "../image/Apexmall/apex4.jpeg";
 
@@ -60,16 +60,31 @@ function NewLaunchSection() {
     link.download = "SKA-ARCADIA.pdf"; // file ka naam jab download ho
     link.click();
   };
-  const handleDownloadPrimeVIsta = () => {
-    const link = document.createElement("a");
-    link.href = "/prime-vista.pdf"; // public folder se direct access
-    link.download = "catalogue-prime-vista.pdf"; // file ka naam jab download ho
-    link.click();
-  };
+  // const handleDownloadPrimeVIsta = () => {
+  //   const link = document.createElement("a");
+  //   link.href = "/prime-vista.pdf"; // public folder se direct access
+  //   link.download = "catalogue-prime-vista.pdf"; // file ka naam jab download ho
+  //   link.click();
+  // };
+
   const handleDownloadCrystalVillas = () => {
     const link = document.createElement("a");
     link.href = "/Crystal-Villas.pdf"; // public folder se direct access
     link.download = "Crystal-Villas.pdf"; // file ka naam jab download ho
+    link.click();
+  };
+
+  const handleDownloadCoreMall = () => {
+    const link = document.createElement("a");
+    link.href = "/core-mall.pdf";
+    link.download = "core-mall.pdf"; 
+    link.click();
+  };
+
+  const handleDownloadApexMall = () => {
+    const link = document.createElement("a");
+    link.href = "/Apex-Park.pdf";
+    link.download = "Apex-Park.pdf"; 
     link.click();
   };
 
@@ -279,7 +294,7 @@ function NewLaunchSection() {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : The Velley
+                  Location : The Valley
                 </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
@@ -364,43 +379,8 @@ function NewLaunchSection() {
                 </div>
               </div>
 
-              {/* Card 8 */}
-              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
-                <Link
-                  to="/prime-vista"
-                  className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
-                >
-                  <AiOutlineEye className="font-bold" size={18} /> View
-                </Link>
-
-                <Link to="/prime-vista">
-                  <img
-                    className="rounded-t-3xl w-full h-60 object-cover object-top"
-                    src={finallyArrived}
-                    alt=""
-                  />
-                </Link>
-                <p className="text-white mt-2 px-2 mb-3">Location : jhajhar</p>
-                <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with
-                  us.
-                </p>
-
-                <div className="flex items-center gap-3 px-2 pb-3">
-                  <button
-                    onClick={handleDownloadPrimeVIsta}
-                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
-                  >
-                    Download PDF <MdOutlineFileDownload size={20} />
-                  </button>
-                  <Link to="/contact">
-                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
-                      Contact Us
-                    </button>
-                  </Link>
-                </div>
-              </div>
-
+              {/* Card 8 jhajhar removed */}
+        
               {/* card 9 */}
 
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
@@ -467,6 +447,12 @@ function NewLaunchSection() {
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
+                       <button
+                    onClick={handleDownloadCoreMall}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
+                  >
+                    Download PDF <MdOutlineFileDownload size={20} />
+                  </button>
                   <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us
@@ -499,6 +485,12 @@ function NewLaunchSection() {
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
+                       <button
+                    onClick={handleDownloadApexMall}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
+                  >
+                    Download PDF <MdOutlineFileDownload size={20} />
+                  </button>
                   <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us

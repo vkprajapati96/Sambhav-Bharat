@@ -11,10 +11,10 @@ const Footer = () => {
                 {/* Left Side - Company Info */}
                 <div className="text-center md:text-left max-w-sm">
                     <Link to="/">
-                        <img className='w-36 mx-auto md:mx-0' src={logo} alt="Shambhav Bharat Logo" />
+                        <img className='w-36 mx-auto md:mx-0' src={logo} alt="Sambhav Bharat Logo" />
                     </Link>
                     <p className="text-lg mt-6 leading-relaxed">
-                        Shambhav Bharat is a trusted real estate company dedicated to helping you find your dream home. We specialize in residential and commercial properties, providing transparent deals and exceptional customer service.
+                        Sambhav Bharat is a trusted real estate company dedicated to helping you find your dream home. We specialize in residential and commercial properties, providing transparent deals and exceptional customer service.
                     </p>
                 </div>
 
@@ -53,7 +53,7 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className="mt-8 text-center text-gray-500 text-sm">
-                © 2025 Shambhav Bharat. All Rights Reserved.
+                © 2025 Sambhav Bharat. All Rights Reserved.
             </div>
         </footer>
     );
