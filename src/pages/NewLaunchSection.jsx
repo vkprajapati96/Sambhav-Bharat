@@ -77,14 +77,14 @@ function NewLaunchSection() {
   const handleDownloadCoreMall = () => {
     const link = document.createElement("a");
     link.href = "/core-mall.pdf";
-    link.download = "core-mall.pdf"; 
+    link.download = "core-mall.pdf";
     link.click();
   };
 
   const handleDownloadApexMall = () => {
     const link = document.createElement("a");
     link.href = "/Apex-Park.pdf";
-    link.download = "Apex-Park.pdf"; 
+    link.download = "Apex-Park.pdf";
     link.click();
   };
 
@@ -286,6 +286,10 @@ function NewLaunchSection() {
                   <AiOutlineEye className="font-bold" size={18} /> View
                 </Link>
 
+                <span className="absolute top-2 left-2 text-white text-sm font-semibold flex items-center gap-1 bg-red-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition">
+                  Funded by Swami
+                </span>
+
                 <Link to="/the-velley">
                   <img
                     className="rounded-t-3xl w-full h-60 object-cover"
@@ -380,7 +384,7 @@ function NewLaunchSection() {
               </div>
 
               {/* Card 8 jhajhar removed */}
-        
+
               {/* card 9 */}
 
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
@@ -447,7 +451,7 @@ function NewLaunchSection() {
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
-                       <button
+                  <button
                     onClick={handleDownloadCoreMall}
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
                   >
@@ -478,14 +482,15 @@ function NewLaunchSection() {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : Apex Park Square (Greater Noida West)                </p>
+                  Location : Apex Park Square (Greater Noida West){" "}
+                </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
                   us.
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
-                       <button
+                  <button
                     onClick={handleDownloadApexMall}
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
                   >
