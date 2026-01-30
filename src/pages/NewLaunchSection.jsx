@@ -63,6 +63,13 @@ function NewLaunchSection(){
     link.click();
   };
 
+const handleDownloadCrystalValley = () => {
+    const link = document.createElement("a");
+    link.href = "/Crystal-Valley.pdf"; // public folder se direct access
+    link.download = "Crystal-Valley.pdf"; // file ka naam jab download ho
+    link.click();
+  };
+
   const handleDownloadCoreMall = () => {
     const link = document.createElement("a");
     link.href = "/core-mall.pdf";
@@ -524,7 +531,12 @@ function NewLaunchSection(){
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
-               
+                  <button
+                    onClick={handleDownloadCrystalValley}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
+                  >
+                    Download PDF <MdOutlineFileDownload size={20} />
+                  </button>
                   <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us

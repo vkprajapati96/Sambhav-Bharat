@@ -10,17 +10,21 @@ const CrystalValley = () => {
     <section className="w-full px-20 py-10 max-xl:px-20 max-lg:px-12 max-md:px-6 max-sm:px-4">
 
       {/* ✅ IMAGES */}
-      <div className="grid grid-cols-3 gap-6 max-md:grid-cols-1">
-        {images.map((img, index) => (
-          <div key={index} className="overflow-hidden rounded-2xl shadow-lg">
-            <img
-              src={img}
-              alt={`valley-${index}`}
-              className="w-full h-[260px] max-md:h-[220px] object-cover transition-transform duration-500 hover:scale-105"
-            />
-          </div>
-        ))}
-      </div>
+    <div className="grid grid-cols-3 gap-6 max-md:grid-cols-1 ">
+  {images.map((img, index) => (
+    <div
+      key={index}
+      className="overflow-hidden rounded-2xl shadow-lg flex items-center justify-center bg-black/5"
+    >
+      <img
+        src={img}
+        alt={`valley-${index}`}
+        className="w-full h-[320px] rounded-2xl max-md:h-[260px] object-contain transition-transform duration-500 hover:scale-105"
+      />
+    </div>
+  ))}
+</div>
+
 
       {/* ✅ CONTENT */}
       <div className="mt-16 max-w-5xl">
