@@ -14,11 +14,12 @@ import WhatsappIcon from './pages/WhatsappIcon'
 import AeroCity from './propertuespages/AeroCity'
 import Chandroday from './propertuespages/Chandroday'
 import Ska from './propertuespages/Ska'
-import TheVelley from './propertuespages/TheVelley'
-import PrimeVista from './propertuespages/PrimeVista'
 import GaimDholera from './propertuespages/GaimDholera'
 import CoreMall from './propertuespages/CoreMall'
 import ApexMall from './propertuespages/ApexMall'
+import CrystalVilla from './propertuespages/CrystalVilla'
+import CrystalValley from './propertuespages/CrystalValley'
+import ParkView from './propertuespages/ParkView'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
      <Navbar/>
      <WhatsappIcon/>
      <Routes>
+      
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/properties" element={<Properties/>}/>
@@ -37,11 +39,13 @@ const App = () => {
       <Route path="/aero/city" element={<AeroCity/>}/>
       <Route path="/chandroday/city" element={<Chandroday/>}/>
       <Route path="/ska" element={<Ska/>}/>
-      <Route path="/the-velley" element={<TheVelley/>}/>
-      <Route path="/prime-vista" element={<PrimeVista/>}/>
       <Route path="/gaim-dholera" element={<GaimDholera/>}/>
       <Route path="/core-mall" element={<CoreMall/>}/>
       <Route path="/apex-mall" element={<ApexMall/>}/>
+      <Route path="/crystal-villa" element={<CrystalVilla/>}/>
+      <Route path="/crystal-valley" element={<CrystalValley/>}/>
+      <Route path="/park-view" element={<ParkView/>}/>
+
      </Routes>
      <Footer/>
     </BrowserRouter>

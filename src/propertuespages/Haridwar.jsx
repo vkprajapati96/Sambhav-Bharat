@@ -48,9 +48,9 @@ const Haridwar = () => {
 
                     <div>
                         <p className='text-xl 2xl:text-2xl'><span className='font-bold'>TTL Area — </span>  1.47 lacs SQFT i.e 20 Bigha i.e. 16300 SQ yards </p>
-                    </div>
+                    </div>xxxxxxx``````````````
 
-                    <div>
+                    <div>        
                         <p className='text-xl 2xl:text-2xl'><span className='font-bold'>Salable Area (After all Deduction) — </span>  15 mtrs from ground, Stilt+4 floors permitted, Map needed to be sanctioned for construction by HRDA. </p>
                     </div>
 
