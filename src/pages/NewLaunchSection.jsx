@@ -76,10 +76,10 @@ function NewLaunchSection(){
     link.download = "Apex-Park.pdf";
     link.click();
   };
-  const handleDownloadCrystal = () => {
+  const handleDownloadparkview = () => {
     const link = document.createElement("a");
-    link.href = "/.pdf";
-    link.download = "Crystal-Villa.pdf";
+    link.href = "/ParkView.pdf";
+    link.download = "ParkView.pdf";
     link.click();
   };
   return (
@@ -532,6 +532,7 @@ function NewLaunchSection(){
                   </Link>
                 </div>
               </div>
+
               {/* card 14 park view */}
 
   <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
@@ -557,7 +558,13 @@ function NewLaunchSection(){
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
-               
+                                 <button
+                    onClick={handleDownloadparkview}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
+                  >
+                    Download PDF <MdOutlineFileDownload size={20} />
+                  </button>
+
                   <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us

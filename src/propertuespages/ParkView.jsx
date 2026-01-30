@@ -27,7 +27,7 @@ const ParkView = () => {
           ParkView Residency – Premium Homes in Noida Extension
         </h1>
 
-        <p className="text-gray-600 leading-8 mb-5">
+        <p className="text-gray-300 leading-8 mb-5">
           ParkView Residency is a well-planned residential project in Noida
           Extension, offering thoughtfully designed 1, 2, 3 & 4 BHK homes for
           modern urban living. Set in a peaceful yet well-connected location, the
@@ -35,7 +35,7 @@ const ParkView = () => {
           views to deliver a comfortable and refined lifestyle.
         </p>
 
-        <p className="text-gray-600 leading-8">
+        <p className="text-gray-300 leading-8">
           Situated opposite a 40-acre authority-maintained green park, the
           project benefits from excellent ventilation, natural light, and a calm
           environment. Being a corner and two-side open project, ParkView
