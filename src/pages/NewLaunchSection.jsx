@@ -56,12 +56,12 @@ function NewLaunchSection(){
     link.click();
   };
   
-  const handleDownloadCrystalVillas = () => {
-    const link = document.createElement("a");
-    link.href = "/Crystal-Villas.pdf"; // public folder se direct access
-    link.download = "Crystal-Villas.pdf"; // file ka naam jab download ho
-    link.click();
-  };
+  // const handleDownloadCrystalVillas = () => {
+  //   const link = document.createElement("a");
+  //   link.href = "/Crystal-Villas.pdf";    
+  //   link.download = "Crystal-Villas.pdf"; 
+  //   link.click();
+  // };
 
 const handleDownloadCrystalValley = () => {
     const link = document.createElement("a");
@@ -373,12 +373,7 @@ const handleDownloadCrystalValley = () => {
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
-                  <button
-                    onClick={handleDownloadCrystalVillas}
-                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
-                  >
-                    Download PDF <MdOutlineFileDownload size={20} />
-                  </button>
+                
                   <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us
