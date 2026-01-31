@@ -518,7 +518,7 @@ const handleDownloadCrystalValley = () => {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : Crystal Valley (Sawantwadi, Maharashtra) {" "}
+                  Location : Crystal Valley Sawantwadi Maharashtra {" "}
                 </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with

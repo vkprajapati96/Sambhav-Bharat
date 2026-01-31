@@ -28,8 +28,8 @@ const CrystalValley = () => {
 
       {/* ✅ CONTENT */}
       <div className="mt-16 max-w-5xl">
-        <h1 className="text-4xl font-semibold mb-6 max-md:text-2xl">
-          Crystal Valley – A Nature-Inspired Lifestyle at Sawantwadi
+        <h1 className="text-[28px] font-semibold mb-6 max-md:text-2xl">
+          Crystal Valley – A Nature-Inspired Lifestyle at Sawantwadi (Near North Goa)
         </h1>
 
         <p className="text-gray-300 leading-8 mb-5">
