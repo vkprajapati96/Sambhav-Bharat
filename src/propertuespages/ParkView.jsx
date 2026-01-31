@@ -1,9 +1,13 @@
 import React from "react";
 import parkview1 from "../image/Parkview/parkview1.jpeg";
-import parkview2 from "../image/Parkview/parkview2.jpeg";
+import layout from "../image/Parkview/layout.jpeg";
+import parkview1bhk from "../image/Parkview/parkview1bhk.jpeg";
+import parkview2bhk from "../image/Parkview/parkview2bhk.jpeg";
+import parkview3bhk from "../image/Parkview/parkview3bhk.jpeg";
+import parkview4bhk from "../image/Parkview/parkview4bhk.jpeg";
 
 const ParkView = () => {
-  const images = [parkview1, parkview2];
+  const images = [parkview1,layout,parkview1bhk,parkview2bhk,parkview3bhk,parkview4bhk];
 
   return (
     <section className="w-full px-20 py-10 max-xl:px-20 max-lg:px-12 max-md:px-6 max-sm:px-4">
