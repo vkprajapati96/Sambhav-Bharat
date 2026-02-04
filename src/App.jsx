@@ -20,6 +20,7 @@ import ApexMall from './propertuespages/ApexMall'
 import CrystalVilla from './propertuespages/CrystalVilla'
 import CrystalValley from './propertuespages/CrystalValley'
 import ParkView from './propertuespages/ParkView'
+import Dishapuram from './propertuespages/Dishapuram'
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
       <Route path="/crystal-villa" element={<CrystalVilla/>}/>
       <Route path="/crystal-valley" element={<CrystalValley/>}/>
       <Route path="/park-view" element={<ParkView/>}/>
+      <Route path="/dishapuram" element={<Dishapuram/>}/>
 
      </Routes>
      <Footer/>

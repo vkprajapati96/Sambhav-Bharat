@@ -12,11 +12,12 @@ import newlauncimage1 from "../image/newlauncimage1.jpeg";
 import dholera from "../image/dholera.jpeg";
 import coremall from "../image/Coremall/coremall1.jpeg";
 import apexfront from "../image/Apexmall/apex4.jpeg";
-// import goa2 from "../image/CrystalVilla/goa2.jpeg"
-import CrystalValley1  from  "../image/CrystalValley/crystalvalley1.jpeg"
-import parkView1  from "../image/Parkview/parkview1.jpeg" 
+import dishupuram from "../image/dishapuram/dishupuram.jpeg";
 
-function NewLaunchSection(){
+import CrystalValley1 from "../image/CrystalValley/crystalvalley1.jpeg";
+import parkView1 from "../image/Parkview/parkview1.jpeg";
+
+function NewLaunchSection() {
   const scrollRef = useRef(null);
 
   const scrollLeft = () => {
@@ -41,7 +42,6 @@ function NewLaunchSection(){
     link.click();
   };
 
-
   const handleDownloadVone = () => {
     const link = document.createElement("a");
     link.href = "/vone.pdf"; // public folder se direct access
@@ -55,15 +55,8 @@ function NewLaunchSection(){
     link.download = "SKA-ARCADIA.pdf"; // file ka naam jab download ho
     link.click();
   };
-  
-  // const handleDownloadCrystalVillas = () => {
-  //   const link = document.createElement("a");
-  //   link.href = "/Crystal-Villas.pdf";    
-  //   link.download = "Crystal-Villas.pdf"; 
-  //   link.click();
-  // };
 
-const handleDownloadCrystalValley = () => {
+  const handleDownloadCrystalValley = () => {
     const link = document.createElement("a");
     link.href = "/Crystal-Valley.pdf"; // public folder se direct access
     link.download = "Crystal-Valley.pdf"; // file ka naam jab download ho
@@ -83,12 +76,20 @@ const handleDownloadCrystalValley = () => {
     link.download = "Apex-Park.pdf";
     link.click();
   };
+
   const handleDownloadparkview = () => {
     const link = document.createElement("a");
     link.href = "/ParkView.pdf";
     link.download = "ParkView.pdf";
     link.click();
   };
+const handleDownloadDishapuram = () => {
+    const link = document.createElement("a");
+    link.href = "/Dishapuram.pdf";
+    link.download = "Dishapuram.pdf";
+    link.click();
+  };
+
   return (
     <div className="lg:mx-16 flex justify-center mt-16">
       <div className="w-full max-w-8xl relative">
@@ -280,7 +281,6 @@ const handleDownloadCrystalValley = () => {
 
               {/* Card 5 valley removed */}
 
-             
               {/* Card 6 */}
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
@@ -373,7 +373,6 @@ const handleDownloadCrystalValley = () => {
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
-                
                   <Link to="/contact">
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
                       Contact Us
@@ -460,49 +459,11 @@ const handleDownloadCrystalValley = () => {
                   </Link>
                 </div>
               </div>
-{/* card 12 */}
 
-              {/* <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
-                <Link
-                  to="/crystal-villa"
-                  className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
-                >
-                  <AiOutlineEye className="font-bold" size={18} /> View
-                </Link>
-
-                <Link to="/crystal-villa">
-                  <img
-                    className="rounded-t-3xl w-full h-60 object-cover "
-                    src={goa2}
-                    alt=""
-                  />
-                </Link>
-                <p className="text-white mt-2 px-2 mb-3">
-                  Location : Crystal Villa (Cansaulim, South Goa){" "}
-                </p>
-                <p className="text-white mt-2 mx-2">
-                  If you want to know more about this place, please connect with
-                  us.
-                </p>
-
-                <div className="flex items-center gap-3 px-2 pb-3">
-                  <button
-                    onClick={""}
-                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
-                  >
-                    Download PDF <MdOutlineFileDownload size={20} />
-                  </button>
-                  <Link to="/contact">
-                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
-                      Contact Us
-                    </button>
-                  </Link>
-                </div>
-              </div> */}
-
+              {/* card 12 */}
               {/* card 13 crystal valley */}
 
-             <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/crystal-valley"
                   className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
@@ -518,7 +479,7 @@ const handleDownloadCrystalValley = () => {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : Crystal Valley Sawantwadi Maharashtra {" "}
+                  Location : Crystal Valley Sawantwadi Maharashtra{" "}
                 </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
@@ -542,7 +503,7 @@ const handleDownloadCrystalValley = () => {
 
               {/* card 14 park view */}
 
-  <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/park-view"
                   className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
@@ -558,14 +519,15 @@ const handleDownloadCrystalValley = () => {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : Park View (Noida Extension)                 </p>
+                  Location : Park View (Noida Extension){" "}
+                </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
                   us.
                 </p>
 
                 <div className="flex items-center gap-3 px-2 pb-3">
-                                 <button
+                  <button
                     onClick={handleDownloadparkview}
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
                   >
@@ -580,10 +542,47 @@ const handleDownloadCrystalValley = () => {
                 </div>
               </div>
 
+{/* card 15 */}
+            <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+                <Link
+                  to="/dishapuram"
+                  className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
+                >
+                  <AiOutlineEye className="font-bold" size={18} /> View
+                </Link>
+
+                <Link to="/dishapuram">
+                  <img
+                    className="rounded-t-3xl w-full h-60 object-cover "
+                    src={dishupuram}
+                    alt=""
+                  />
+                </Link>
+                <p className="text-white mt-2 px-2 mb-3">
+                  Location : Dishapuram {" "}
+                </p>
+                <p className="text-white mt-2 mx-2">
+                  If you want to know more about this place, please connect with
+                  us.
+                </p>
+
+                <div className="flex items-center gap-3 px-2 pb-3">
+                  <button
+                    onClick={handleDownloadDishapuram}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
+                  >
+                    Download PDF <MdOutlineFileDownload size={20} />
+                  </button>
+                  <Link to="/contact">
+                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
+                      Contact Us
+                    </button>
+                  </Link>
+                </div>
+              </div> 
 
 
-
-
+              
             </div>
 
             {/* 👉 Right Scroll Button */}
