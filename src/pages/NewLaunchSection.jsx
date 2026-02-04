@@ -559,7 +559,7 @@ const handleDownloadDishapuram = () => {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : Dishapuram {" "}
+                  Location : Dishapuram (Sikar–Jaipur Highway)  {" "}
                 </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
