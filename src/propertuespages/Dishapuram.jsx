@@ -8,7 +8,7 @@ const Dishapuram = () => {
   const images = [dishupuram1, dishupuram2, dishupuram3, dishupuram4];
 
   return (
-    <section className="w-full px-20 py-10 max-xl:px-20 max-lg:px-12 max-md:px-6 max-sm:px-4">
+<section className="w-full max-w-8xl mx-auto px-10 py-10 max-xl:px-20 max-lg:px-12 max-md:px-6 max-sm:px-4">
       {/* ✅ IMAGES */}
       <div className="grid grid-cols-2 gap-6 max-md:grid-cols-1">
         {images.map((img, index) => (
