@@ -16,6 +16,8 @@ import dishupuram from "../image/dishapuram/dishupuram.jpeg";
 
 import CrystalValley1 from "../image/CrystalValley/crystalvalley1.jpeg";
 import parkView1 from "../image/Parkview/parkview1.jpeg";
+import brijghat from "../image/BrijGhat/brijghat.jpeg"
+
 
 function NewLaunchSection() {
   const scrollRef = useRef(null);
@@ -83,7 +85,7 @@ function NewLaunchSection() {
     link.download = "ParkView.pdf";
     link.click();
   };
-const handleDownloadDishapuram = () => {
+  const handleDownloadDishapuram = () => {
     const link = document.createElement("a");
     link.href = "/Dishapuram.pdf";
     link.download = "Dishapuram.pdf";
@@ -279,9 +281,7 @@ const handleDownloadDishapuram = () => {
                 </div>
               </div>
 
-              {/* Card 5 valley removed */}
-
-              {/* Card 6 */}
+              {/* Card 5 */}
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/aero/city"
@@ -313,7 +313,7 @@ const handleDownloadDishapuram = () => {
                 </div>
               </div>
 
-              {/* Card 7 */}
+              {/* Card 6 */}
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/chandroday/city"
@@ -345,9 +345,7 @@ const handleDownloadDishapuram = () => {
                 </div>
               </div>
 
-              {/* Card 8 jhajhar removed prime vista */}
-
-              {/* card 9 */}
+              {/* card 7 */}
 
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
@@ -381,7 +379,7 @@ const handleDownloadDishapuram = () => {
                 </div>
               </div>
 
-              {/* card 10 */}
+              {/* card 8 */}
 
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
@@ -420,7 +418,7 @@ const handleDownloadDishapuram = () => {
                   </Link>
                 </div>
               </div>
-              {/* card 11 */}
+              {/* card 9 */}
 
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
@@ -460,8 +458,7 @@ const handleDownloadDishapuram = () => {
                 </div>
               </div>
 
-              {/* card 12 */}
-              {/* card 13 crystal valley */}
+              {/* card 10 crystal valley */}
 
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
@@ -501,7 +498,7 @@ const handleDownloadDishapuram = () => {
                 </div>
               </div>
 
-              {/* card 14 park view */}
+              {/* card 11 park view */}
 
               <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
@@ -542,8 +539,8 @@ const handleDownloadDishapuram = () => {
                 </div>
               </div>
 
-{/* card 15 */}
-            <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+              {/* card 12 */}
+              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/dishapuram"
                   className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
@@ -559,7 +556,7 @@ const handleDownloadDishapuram = () => {
                   />
                 </Link>
                 <p className="text-white mt-2 px-2 mb-3">
-                  Location : Dishapuram (Sikar–Jaipur Highway) Rajasthan  {" "}
+                  Location : Dishapuram (Sikar–Jaipur Highway) Rajasthan{" "}
                 </p>
                 <p className="text-white mt-2 mx-2">
                   If you want to know more about this place, please connect with
@@ -579,10 +576,49 @@ const handleDownloadDishapuram = () => {
                     </button>
                   </Link>
                 </div>
-              </div> 
+              </div>
 
 
-              
+              {/* card 13 */}
+
+              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+                <Link
+                  to="/brijghat"
+                  className="absolute top-2 right-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
+                >
+                  <AiOutlineEye className="font-bold" size={18} /> View
+                </Link>
+
+                <Link to="/brijghat">
+                  <img
+                    className="rounded-t-3xl w-full h-60 object-cover object-top "
+                    src={brijghat}
+                    alt=""
+                  />
+                </Link>
+                <p className="text-white mt-2 px-2 mb-3">
+                  Location : Brij GHat {" "}
+                </p>
+                <p className="text-white mt-2 mx-2">
+                  If you want to know more about this place, please connect with
+                  us.
+                </p>
+
+                <div className="flex items-center gap-3 px-2 pb-3">
+                  <button
+                    onClick={""}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
+                  >
+                    Download PDF <MdOutlineFileDownload size={20} />
+                  </button>
+                  <Link to="/contact">
+                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer">
+                      Contact Us
+                    </button>
+                  </Link>
+                </div>
+              </div>
+
             </div>
 
             {/* 👉 Right Scroll Button */}

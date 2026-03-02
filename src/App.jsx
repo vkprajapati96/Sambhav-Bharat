@@ -21,6 +21,7 @@ import CrystalVilla from './propertuespages/CrystalVilla'
 import CrystalValley from './propertuespages/CrystalValley'
 import ParkView from './propertuespages/ParkView'
 import Dishapuram from './propertuespages/Dishapuram'
+import Brijghat from './propertuespages/Brijghat'
 
 const App = () => {
   return (
@@ -47,6 +48,7 @@ const App = () => {
       <Route path="/crystal-valley" element={<CrystalValley/>}/>
       <Route path="/park-view" element={<ParkView/>}/>
       <Route path="/dishapuram" element={<Dishapuram/>}/>
+      <Route path="/brijghat" element={<Brijghat/>}/>
 
      </Routes>
      <Footer/>
