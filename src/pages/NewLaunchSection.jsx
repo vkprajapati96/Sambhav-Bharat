@@ -92,6 +92,13 @@ function NewLaunchSection() {
     link.click();
   };
 
+  const handleDownloadGANGARIVERA = () => {
+    const link = document.createElement("a");
+    link.href = "/GANGARIVERA.pdf";
+    link.download = "GANGA-RIVERA.pdf";
+    link.click();
+  };
+
   return (
     <div className="lg:mx-16 flex justify-center mt-16">
       <div className="w-full max-w-8xl relative">
@@ -606,7 +613,7 @@ function NewLaunchSection() {
 
                 <div className="flex items-center gap-3 px-2 pb-3">
                   <button
-                    onClick={""}
+                    onClick={handleDownloadGANGARIVERA}
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 mt-2 cursor-pointer"
                   >
                     Download PDF <MdOutlineFileDownload size={20} />
@@ -624,7 +631,9 @@ function NewLaunchSection() {
             {/* 👉 Right Scroll Button */}
             <button
               onClick={scrollRight}
-              className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-black p-3 rounded-full shadow-lg z-20 transition"
+              className="cursor-pointer abs
+              
+              zolute right-0 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-black p-3 rounded-full shadow-lg z-20 transition"
             >
               <FaChevronRight size={24} />
             </button>
