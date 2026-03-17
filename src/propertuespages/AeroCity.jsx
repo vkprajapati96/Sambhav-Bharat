@@ -43,7 +43,7 @@ const AeroCity = () => {
                     </div>
 
                     <div>
-                        <p className='text-xl 2xl:text-2xl'>👉 Price - 10,000 प्रति वर्ग गज, </p>
+                        <p className='text-xl 2xl:text-2xl'>👉 Price - 15,000 प्रति वर्ग गज, </p>
                     </div>
 
                     <div>
