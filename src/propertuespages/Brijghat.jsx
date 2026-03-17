@@ -7,6 +7,11 @@ import nearest3 from "../image/BrijGhat/nearest3.jpeg"
 import nearest4 from "../image/BrijGhat/nearest4.jpeg"
 import nearest5 from "../image/BrijGhat/nearest5.jpeg"
 import paymentPlan from "../image/BrijGhat/paymentPlan.jpg"
+import polt1 from "../image/BrijGhat/polt1.jpg"
+import polt2 from "../image/BrijGhat/polt2.jpg"
+import polt3 from "../image/BrijGhat/polt3.jpg"
+import polt4 from "../image/BrijGhat/polt4.jpg"
+import GANGARIVERA from "../image/BrijGhat/GANGARIVERA.jpeg"
 
 
 const Brijghat = () => {
@@ -28,6 +33,8 @@ const Brijghat = () => {
     "Temple",
   ];
 
+  const images =[polt1,polt4,polt2,polt3]
+
   const locations = [
   { id: 1, img: nearest1, name: "Sanjeevani Hospital" },
   { id: 5, img: nearest5, name: "Moga Dhaba" },
@@ -39,8 +46,7 @@ const Brijghat = () => {
   return (
     <div className="w-full text-white">
 
-      {/* Top Headings Section */}
-      <div className="max-w-8xl mx-auto px-6 pt-10 text-center">
+       <div className="max-w-8xl mx-auto px-6 pt-10 text-center">
         <h1 className="text-3xl md:text-4xl font-semibold mb-3">
           Ganga Rivera
         </h1>
@@ -50,6 +56,22 @@ const Brijghat = () => {
         </h2>
       </div>
 
+
+
+         <div className="grid grid-cols-2 gap-6 max-md:grid-cols-1 px-6 py-6">
+        {images.map((img, index) => (
+          <div key={index} className="overflow-hidden rounded-2xl shadow-lg">
+            <img
+              src={img}
+              alt={`dishapuram-${index}`}
+              className="w-full h-[400px] max-md:h-[220px]  transition-transform duration-500 hover:scale-105"
+            />
+          </div>
+        ))}
+      </div>
+
+
+   
       {/* About Section */}
 
       <div className="max-w-8xl mx-auto px-6 mt-16">
@@ -61,7 +83,7 @@ const Brijghat = () => {
             <img
               src={abc}
               alt="About Ganga Rivera"
-              className="w-full h-[300px] md:h-[400px] object-cover object-bottom rounded-xl shadow-lg"
+              className="w-full h-[300px] md:h-[350px] object-cover object-bottom rounded-xl shadow-lg"
             />
           </div>
 
@@ -94,7 +116,7 @@ const Brijghat = () => {
 
 {/*  */}
 
-  <div className="max-w-8xl mx-auto py-12 px-6">
+  <div className="max-w-8xl mx-auto py-10 md:py-14 px-6">
 
     <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
       Luxurious Amenities
@@ -117,7 +139,7 @@ const Brijghat = () => {
 
   </div>
 {/*  */}
-<section className="py-16">
+<div className="py-8 md:py-12">
   <div className="max-w-8xl mx-auto px-4 md:px-6">
 
     <h2 className="text-2xl md:text-4xl font-bold text-center text-white mb-10">
@@ -149,10 +171,10 @@ const Brijghat = () => {
     </div>
 
   </div>
-</section>
+</div>
   {/*  */}
 
-<section className="py-20">
+<div className="py-10 md:py-16">
   <div className="max-w-7xl mx-auto px-6">
 
     <div className="grid md:grid-cols-2 gap-14 items-center">
@@ -202,7 +224,25 @@ const Brijghat = () => {
     </div>
 
   </div>
-</section>
+</div>
+
+    <div className="w-full pt-6 md:py-14 ">
+      <div className="max-w-8xl mx-auto px-6">
+        
+        <h2 className="text-4xl font-bold text-center mb-8 text-white">
+          Ganga Rivera Layout Plan
+        </h2>
+
+        <div className="rounded-2xl overflow-hidden">
+          <img
+            src={GANGARIVERA}
+            alt="Ganga Rivera Layout Plan"
+            className="w-full h-auto object-cover"
+          />
+        </div>
+
+      </div>
+    </div>
 
     </div>
   );
