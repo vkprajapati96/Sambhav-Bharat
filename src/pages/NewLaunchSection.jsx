@@ -12,7 +12,7 @@ import newlauncimage1 from "../image/newlauncimage1.jpeg";
 import dholera from "../image/dholera.jpeg";
 import coremall from "../image/Coremall/coremall1.jpeg";
 import apexfront from "../image/Apexmall/apex4.jpeg";
-import dishupuram from "../image/dishapuram/dishupuram.jpeg";
+import dishupuram from "../image/dishapuram/dishupuram1.jpeg";
 
 import CrystalValley1 from "../image/CrystalValley/crystalvalley1.jpeg";
 import parkView1 from "../image/Parkview/parkview1.jpeg";
@@ -354,7 +354,7 @@ function NewLaunchSection() {
 
               {/* card 7 */}
 
-              <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
+           {/* <div className="w-80 bg-white/10 backdrop-blur-3xl rounded-2xl shadow-lg relative flex-shrink-0">
                 <Link
                   to="/gaim-dholera"
                   className="absolute top-2 left-2 text-white text-sm font-semibold flex items-center gap-1 bg-blue-600 px-3 py-1 rounded-full shadow-md hover:bg-blue-700 transition"
@@ -384,7 +384,7 @@ function NewLaunchSection() {
                     </button>
                   </Link>
                 </div>
-              </div>
+              </div>  */}
 
               {/* card 8 */}
 
@@ -556,12 +556,12 @@ function NewLaunchSection() {
                 </Link>
 
                 <Link to="/dishapuram">
-                  <img
-                    className="rounded-t-3xl w-full h-60 object-cover "
-                    src={dishupuram}
-                    alt=""
-                  />
-                </Link>
+<img
+  className="rounded-t-3xl w-full h-60 object-cover object-center"
+  src={dishupuram}
+  alt=""
+/>
+          </Link>
                 <p className="text-white mt-2 px-2 mb-3">
                   Location : Dishapuram (Sikar–Jaipur Highway) Rajasthan{" "}
                 </p>
