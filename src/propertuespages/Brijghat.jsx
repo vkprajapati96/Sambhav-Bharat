@@ -7,10 +7,15 @@ import nearest3 from "../image/BrijGhat/nearest3.jpeg"
 import nearest4 from "../image/BrijGhat/nearest4.jpeg"
 import nearest5 from "../image/BrijGhat/nearest5.jpeg"
 import paymentPlan from "../image/BrijGhat/paymentPlan.jpg"
-import polt1 from "../image/BrijGhat/polt1.jpg"
-import polt2 from "../image/BrijGhat/polt2.jpg"
-import polt3 from "../image/BrijGhat/polt3.jpg"
-import polt4 from "../image/BrijGhat/polt4.jpg"
+import plot1 from "../image/BrijGhat/plot1.jpeg"
+import plot2 from "../image/BrijGhat/plot2.jpeg"
+import plot3 from "../image/BrijGhat/plot3.jpeg"
+import plot4 from "../image/BrijGhat/plot4.jpeg"
+import plot5 from "../image/BrijGhat/plot5.jpeg"
+import plot6 from "../image/BrijGhat/plot6.jpeg"
+// import polt2 from "../image/BrijGhat/polt2.jpg"
+// import polt3 from "../image/BrijGhat/polt3.jpg"
+// import polt4 from "../image/BrijGhat/polt4.jpg"
 import GANGARIVERA from "../image/BrijGhat/GANGARIVERA.jpeg"
 
 
@@ -33,7 +38,15 @@ const Brijghat = () => {
     "Temple",
   ];
 
-  const images =[polt1,polt4,polt2,polt3]
+  const images =[
+    plot1,
+    plot2,
+    plot3,
+    plot4,
+    plot5,
+    plot6,
+  
+  ]
 
   const locations = [
   { id: 1, img: nearest1, name: "Sanjeevani Hospital" },
