@@ -6,7 +6,8 @@ import nearest2 from "../image/BrijGhat/nearest2.jpeg"
 import nearest3 from "../image/BrijGhat/nearest3.jpeg"
 import nearest4 from "../image/BrijGhat/nearest4.jpeg"
 import nearest5 from "../image/BrijGhat/nearest5.jpeg"
-import paymentPlan from "../image/BrijGhat/paymentPlan.jpg"
+
+import paymentPlan from "../image/BrijGhat/paymentPlan.jpeg"
 import plot1 from "../image/BrijGhat/plot1.jpeg"
 import plot2 from "../image/BrijGhat/plot2.jpeg"
 import plot3 from "../image/BrijGhat/plot3.jpeg"
@@ -77,7 +78,7 @@ const Brijghat = () => {
             <img
               src={img}
               alt={`dishapuram-${index}`}
-              className="w-full h-[400px] max-md:h-[220px]  transition-transform duration-500 hover:scale-105"
+              className="w-full h-[480px] max-md:h-[220px]  transition-transform duration-500 hover:scale-105"
             />
           </div>
         ))}
@@ -201,7 +202,7 @@ const Brijghat = () => {
         <p className="text-gray-300 leading-relaxed mb-6">
           Ganga Rivera offers a transparent and structured payment plan 
           designed to provide clarity and convenience to buyers. The base 
-          selling price is ₹16,500 per square yard for residential plots. 
+          selling price is ₹18,500 per square yard for residential plots. 
           The booking process begins with 10% of the BSP, followed by 
           scheduled installments within 30, 60, and 90 days.
         </p>
