@@ -202,7 +202,7 @@ const Brijghat = () => {
         <p className="text-gray-300 leading-relaxed mb-6">
           Ganga Rivera offers a transparent and structured payment plan 
           designed to provide clarity and convenience to buyers. The base 
-          selling price is ₹18,500 per square yard for residential plots. 
+          selling price is ₹18,000 per square yard for residential plots. 
           The booking process begins with 10% of the BSP, followed by 
           scheduled installments within 30, 60, and 90 days.
         </p>
@@ -212,6 +212,7 @@ const Brijghat = () => {
           while maintaining a clear timeline for completion. The final 
           installment includes remaining balance along with applicable 
           development and additional charges as mentioned in the plan.
+          
         </p>
 
         <ul className="text-gray-300 space-y-3">
